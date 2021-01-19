@@ -1,284 +1,437 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
    <head>
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!-- Bootstrap CSS -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+            crossorigin="anonymous"/>
+      <link href="style.css" type="text/css" rel="stylesheet"/>
+
       <title>Team Eagle</title>
-      <link
-         href="https://fonts.googleapis.com/css?family=Merriweather:400,700"
-         rel="stylesheet"
-      />
-      <link href="reset.css" type="text/css" rel="stylesheet" />
-      <link href="style.css" type="text/css" rel="stylesheet" />
+
+      <style>
+         .col > img,
+         [class^="col-"] > img {
+            width: 100%;
+         }
+
+         img + p,
+         article + article {
+            margin-top: 1rem;
+         }
+         
+         h1 {
+            margin-top: 1em;
+         }
+         
+         h2 {
+            padding: 5px 0px;
+            border-bottom: solid 1px lightgray;
+            margin-bottom: 1em;
+         }
+      </style>
    </head>
    <body>
-      <!-- Header Section -->
-      <header>
-         <div class="hide" role="presentation">
-            <div class="logo" role="presentation">
-               <h2>
-                  <span>Team Eagle </span>
-               </h2>
-            </div>
-         </div>
-      </header>
-
-      <!-- Menu Section -->
-
-      <div class="sidenav">
-         <a href="#">Team Profile</a>
-         <a href="#">Ideal Jobs</a>
-         <a href="#">Tools</a>
-         <a href="#">Industry Data</a>
-         <a href="#">IT Work</a>
-         <a href="#">Technologies</a>
-         <a href="#">Project Idea</a>
-         <a href="#">Individual Reflection</a>
-         <a href="#">Team Reflection</a>
-      </div>
-
-      <!-- Content -->
-      <div class="content">
-         <!-- Team Profile Seciton -->
-
-         <div class="profile" id="main">
-            <div class="top">
-               <div class="group">
-                  <img />
-               </div>
-            </div>
-         </div>
-
-         <section class="team">
-            <h2>Team Profile</h2>
-            <!-- <div class="farrah">
-         <h3>Farrah Pillos</h3>
-        <p>tempus urna et pharetra pharetra</p>
-      </div> -->
-            <div class="fatima">
-               <h3>Fatima Babar</h3>
-               <p>
-                  Fatima is the youngest member on the team. She is an
-                  Australian Pakistani girl who is currently living in Pakistan
-                  with her family and grandparents. Being a dual nationality
-                  holder, Fatima speaks both English and Urdu fluently, and has
-                  also learnt the basics of Arabic. She has recently completed
-                  Cambridge A levels and is now aiming to complete a Bachelor of
-                  Arts degree (Majoring in Digital Experience and Interaction
-                  design) within the next 3 years. Fatima’s interest in IT
-                  developed with the efforts of her father, a software
-                  developer, who was always convincing her to follow his lead
-                  into becoming a software developer too. However, it wasn’t
-                  until her father started a remote job that Fatima actually
-                  started to take interest in this field. Due to her love for
-                  art and design, she has now decided to become a digital
-                  designer and is studying hard for achieving her goal. Fatima
-                  has no prior experience in the IT field except for learning
-                  the basics of HTML, CSS, and graphic design essential skills
-                  from LinkedIn Learning. Her dream is to become a successful
-                  digital designer and travel the world. In her free time,
-                  Fatima enjoys baking and decorating cakes, doing some DIY
-                  decor, and is always looking forward to the summer holidays
-                  season in which she enjoys travelling with family and cousins.
-               </p>
-            </div>
-            <div class="hannah">
-               <h3>Hannah Smith</h3>
-               <p>
-                  Hannah was born and grew up in Australia and currently live on
-                  Sydney’s Northern Beaches. She graduated high school in 1999,
-                  then, after studying film in college, she moved to New Zealand
-                  for five years, where she opened a retail store. After moving
-                  back to Australia in 2007, Hannah ran an online wholesale and
-                  retail business for twelve years before deciding to pivot her
-                  career and is now studying IT at RMIT University. Currently,
-                  she is working as a digital designer and eCommerce manager for
-                  an online retail business. She enjoys spending weekends with
-                  her family and paddle-boarding on the lake after winning a SUP
-                  board in a -fifty words or less- competition. Hannah believes
-                  that it is hard not to become engrossed in IT when researching
-                  fast-paced developments and technologies. Due to the
-                  coronavirus, she was staying at home and decided to look
-                  deeper into the information technology field, quickly
-                  realising that IT is not only ingrained in society but rapidly
-                  changing the way we live and work in all industries. Initially
-                  being drawn to design because of her creative background, she
-                  started to look into user experience and user interaction
-                  (UX/UI), fields which excite her. After researching the impact
-                  of digital monitoring technologies on the Australian populace,
-                  she also became very engrossed with the development and ethics
-                  of new technologies. Hannah has previous IT experience
-                  including relational skills, small business, strategic
-                  planning, along with design competence. She is also familiar
-                  with the Office Suite, some of the Adobe design platforms and
-                  online communication and sharing tools like Slack, Microsoft
-                  Teams, Gmail, and Dropbox.
-               </p>
-            </div>
-            <div class="nathan">
-               <h3>Nathan Smith</h3>
-               <p>pellentesque massa placerat duis ultricies</p>
-            </div>
-            <div class="sarahb">
-               <h3>Sarah Taulava (Brinckman)</h3>
-               <p>
-                  Sarah is someone who is very passionate about global
-                  development issues which led her to first work in Tonga in
-                  2014, where she met her now husband. She lives on a working
-                  vineyard in the Coal River Valley, Tasmania, with her
-                  2-year-old daughter and 1 year-old son and enjoys foraging for
-                  sloe berries in late summer to make sloe gin. Sarah has both
-                  Australian and Tongan nationality and can speak both
-                  languages. She owns a Certificate III in Business (2003), a
-                  Certificate III in Information, Digital Media and Technology
-                  (2020), and is now working towards a bachelor’s degree in IT.
-                  Sarah had always been curious about how computers/networking
-                  worked. But after recognising the power IT has when it comes
-                  to developing for the good of people, her determination led
-                  her to learn about the IT solutions for microfinance and
-                  remittances which further sparked her interest in the link
-                  between development and IT. Despite not having previous IT
-                  experience, Sarah has always had incredible written and verbal
-                  communication skills that have further improved throughout her
-                  18 years of working in roles where these skills were used
-                  daily with a variety of stakeholders. She holds a genuine
-                  interest in constantly learning and behaves in a way
-                  consistent with CleverTech’s culture; being respectful,
-                  collaborative, and introspective by nature.
-               </p>
-            </div>
-            <div class="sarahc">
-               <h3>Sarah Carney</h3>
-               <p>
-                  Born in Australia, but with a British mother, Sarah owns dual
-                  citizenship. She is an inspiring person and someone who
-                  strongly believes in lifelong learning. She has degrees in
-                  Science, Marketing, an MBA and is now adding IT to the
-                  collection! Her current hobby is known as "abandoned art". The
-                  idea behind it is that you create something and leave it
-                  somewhere for someone else to find, ideally bringing some joy
-                  to their day. Sarah has always loved technology, but had never
-                  understood IT, the careers it offered or the industry in
-                  general. She had spent a lot of her career working in law and
-                  overseas and on returning to Australia, she took the
-                  opportunity to try out a new industry - telecommunications.
-                  Over time, she moved into a project role, and that was her
-                  first real exposure to what is possible with IT. She learned
-                  about EPICs, features, user stories and wire frames, a whole
-                  world she had never known existed. Sarah was hooked.
-                  Naturally, when a friend reached out and asked if she would be
-                  interested in joining Microsoft, it was a no brainer, and
-                  there, she has found her home. Sarah has worked in management
-                  roles for a number of years, across a few different
-                  industries. As a result, she has multiple skills and
-                  experiences which include:
-               </p>
-               <ul>
-                  <li>
-                     Leading programs of change across diverse and distributed
-                     organisations.
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="#">Team Eagle</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+               <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Team Profile
+                     </a>
+                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li>
+                           <a class="dropdown-item" href="#personal-information">
+                              Personal Information
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#online-test-outcomes">Online Test Outcomes
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#ideal-jobs">Teams Ideal Jobs and Career Path
+                           </a>
+                        </li>
+                     </ul>
                   </li>
-                  <li>
-                     Agile and DevOps methodologies to support the continuous
-                     improvement element of program management.
+                  <li class="nav-item">
+                     <a class="nav-link" href="#it-work" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        IT Work
+                     </a>
                   </li>
-                  <li>
-                     Building high performing teams as well as developing
-                     performance metrics that support and are aligned to
-                     business strategy.
+                  <li class="nav-item">
+                     <a class="nav-link" href="#industry-data" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Industry Data
+                     </a>
                   </li>
-                  <li>
-                     Developing business strategy, aligned to organisational
-                     vision, as well as building execution plans to support
-                     delivery of that strategy.
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#it-technologies" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        IT Technologies
+                     </a>
+                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li>
+                           <a class="dropdown-item" href="#clouds">Clouds, services, servers
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#security">Cyber Security
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#ml">Machine Learning
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#nlp">Natural Language processing and chatterbots
+                           </a>
+                        </li>
+                     </ul>
                   </li>
-                  <li>
-                     Complex stakeholder management, both internal and external.
+                  <li class="nav-item">
+                     <a class="nav-link" href="#project-idea" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Project Idea
+                     </a>
                   </li>
-                  <li>
-                     Creative thinking – finding innovative solutions to complex
-                     problems.
+                  <li class="nav-item">
+                     <a class="nav-link" href="#group-reflection" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Group Reflection
+                     </a>
                   </li>
                </ul>
             </div>
+         </div>
+      </nav>
+
+      <div class="container">
+         <section id="team-profile">
+            <h1>Team Profile</h1>
+
+            <article id="personal-information">
+               <h2>Personal Information</h2>
+
+               <article id="personal-information-hannah-s">
+                  <h3>Hannah Smith</h3>
+                  <p>
+                     Hannah was born and grew up in Australia and currently
+                     lives on Sydney's Northern Beaches. She graduated high
+                     school in 1999, then, after studying film in college, she
+                     moved to New Zealand for five years, where she opened a
+                     retail store. After moving back to Australia in 2007,
+                     Hannah ran an online wholesale and retail business for
+                     twelve years before deciding to pivot her career and is now
+                     studying IT at RMIT University. Currently, she is working
+                     as a digital designer and eCommerce manager for an online
+                     retail business. She enjoys spending weekends with her
+                     family and paddle-boarding on the lake after winning a SUP
+                     board in a -fifty words or less- competition. Hannah
+                     believes that it is hard not to become engrossed in IT when
+                     researching fast-paced developments and technologies. Due
+                     to the coronavirus, she was staying at home and decided to
+                     look deeper into the information technology field, quickly
+                     realising that IT is not only ingrained in society but
+                     rapidly changing the way we live and work in all
+                     industries. Initially being drawn to design because of her
+                     creative background, she started to investigate the user
+                     experience and user interaction (UX/UI) fields which excite
+                     her. After researching the impact of digital monitoring
+                     technologies on the Australian populace, she also became
+                     very engrossed with the development and ethics of modern
+                     technologies. Hannah has previous IT experience including
+                     relational skills, small business, strategic planning, as
+                     well as design competence. She is also familiar with the
+                     Office Suite, some of the Adobe design platforms and online
+                     communication and sharing tools like Slack, Microsoft
+                     Teams, Gmail, and Dropbox.
+                  </p>
+               </article>
+
+               <article id="personal-information-fatima-b">
+                  <h3>Fatima Babar</h3>
+                  <p>
+                     Fatima is the youngest member on the team. She is an
+                     Australian Pakistani girl who is currently living in
+                     Pakistan with her family and grandparents. Being a dual
+                     nationality holder, Fatima speaks both English and Urdu
+                     fluently and has also learnt the basics of Arabic. She has
+                     recently completed Cambridge A levels and is now aiming to
+                     complete a Bachelor of Arts degree (Majoring in Digital
+                     Experience and Interaction design) within the next 3 years.
+                     Fatima's interest in IT developed with the efforts of her
+                     father, a software developer, who was always convincing her
+                     to follow his lead into becoming a software developer too.
+                     However, it wasn't until her father started a remote job
+                     that Fatima started to take interest in this field. Due to
+                     her love for art and design, she has now decided to become
+                     a digital designer and is studying hard to achieve her
+                     goal. Fatima has no prior experience in the IT field except
+                     for learning the basics of HTML, CSS, and graphic design
+                     essential skills from LinkedIn Learning. Her dream is to
+                     become a successful digital designer and travel the world.
+                     In her free time, Fatima enjoys baking and decorating
+                     cakes, doing some DIY decor, and is always looking forward
+                     to the summer holidays season in which she enjoys
+                     travelling with family and cousins.
+                  </p>
+               </article>
+
+               <article id="personal-information-nathan-s">
+                  <h3>Nathan Smith</h3>
+                  <p>
+                     Nathan enjoys photography and mostly shoots film. He shoots
+                     35mm and medium format, with his favourite film being
+                     Portra 400. He also enjoys playing games, writing code, and
+                     learning something new. Nathan's interest in IT began as a
+                     kid when he got his first family computer. He was always on
+                     it, mostly playing games at that age. It grew from there
+                     when Nathan became more interested in what his dad was
+                     doing as he was an IT engineer. When he left school, Nathan
+                     enrolled in Tafe to become a network engineer so he could
+                     follow in his dad's footsteps. He has now been working in
+                     IT for the last ten years across four different jobs and
+                     has spent the last nine years on two separate support
+                     desks. This has given him relevant experience in IT and
+                     good exposure to different technologies. Nathan's current
+                     job has given him more experience in software development,
+                     which is where he sees his career going. Nathan brings many
+                     skills to the team. Some of his skills and qualification
+                     (apart from being a GitHub master!) are:
+                  </p>
+                  <ul>
+                     <li>Network Engineering Diploma</li>
+                     <li>DevOps certified</li>
+                     <li>Web Design – beginner</li>
+                     <li>C# - beginner</li>
+                     <li>10 years working in support desk roles</li>
+                  </ul>
+               </article>
+
+               <article id="personal-information-sarah-c">
+                  <h3>Sarah Carney</h3>
+                  <p>
+                     Born in Australia, but with a British mother, Sarah has
+                     dual citizenship. She is an inspiring person and someone
+                     who strongly believes in lifelong learning. She has degrees
+                     in Science, Marketing, an MBA, and is now adding IT to the
+                     collection! Her current hobby is known as "abandoned art".
+                     The concept is that atrists create something and leave it
+                     somewhere for someone else to find, ideally bringing some
+                     joy to their day. Sarah has always loved technology but had
+                     never deeply understood IT, the careers it offered or the
+                     industry in general. She had spent a lot of her career
+                     working in law and overseas and on returning to Australia,
+                     she took the opportunity to try out a new industry -
+                     telecommunications. Over time, she moved into a project
+                     role, and that was her first real exposure to what is
+                     possible with IT. She learned about EPICs, features, user
+                     stories, and wireframes, an entire world she had never
+                     known existed. Sarah was hooked. Naturally, when a friend
+                     reached out and asked if she would be interested in joining
+                     Microsoft, it was a no brainer, and there, she has found
+                     her home. Sarah has worked in management roles for several
+                     years, across a few different industries. As a result, she
+                     has multiple skills and experiences which include:
+                  </p>
+                  <ul>
+                     <li>
+                        Leading programs of change across diverse and
+                        distributed organisations.
+                     </li>
+                     <li>
+                        Agile and DevOps methodologies to support the continuous
+                        improvement element of program management.
+                     </li>
+                     <li>
+                        Building high performing teams as well as developing
+                        performance metrics that support and are aligned to
+                        business strategy.
+                     </li>
+                     <li>
+                        Developing business strategy, aligned to organisational
+                        vision, as well as building execution plans to support
+                        delivery of that strategy.
+                     </li>
+                     <li>
+                        Complex stakeholder management, both internal and
+                        external.
+                     </li>
+                     <li>
+                        Creative thinking – finding innovative solutions to
+                        complex problems.
+                     </li>
+                  </ul>
+               </article>
+
+               <article id="personal-information-sarah-b">
+                  <h3>Sarah Taulava (Brinckman)</h3>
+                  <p>
+                     Sarah is deeply passionate about global development issues
+                     which led her to work in Tonga in 2014, where she met her
+                     now-husband. She lives on a working vineyard in the Coal
+                     River Valley, Tasmania, with her 2-year-old daughter and
+                     1-year-old son and enjoys foraging for sloe berries in late
+                     summer to make sloe gin. Sarah has both Australian and
+                     Tongan nationality and can speak both languages. She
+                     already has a Certificate III in Business (2003), a
+                     Certificate III in Information, Digital Media and
+                     Technology (2020), and is now working towards a bachelor's
+                     degree in IT. Sarah had always been curious about how
+                     computers/networking worked. After recognising the power IT
+                     has when it comes to developing countries and communities,
+                     her determination led her to learn about IT solutions for
+                     microfinance and remittances which further sparked her
+                     interest in the link between development and IT. Despite
+                     not having previous IT experience, Sarah has always had
+                     incredible written and verbal communication skills that
+                     have further improved throughout her 18 years of working in
+                     roles where these skills were used daily with a variety of
+                     stakeholders. She has a genuine interest in constantly
+                     learning and behaves in a way consistent with CleverTech's
+                     culture; being respectful, collaborative, and introspective
+                     by nature.
+                  </p>
+               </article>
+            </article>
+
+            <article id="online-test-outcomes">
+               <h2>Online Test Outcomes</h2>
+               <p>
+                  Our group is well-balanced when it comes to the members'
+                  personality traits. When working in a team, it is always
+                  beneficial to have people that vary in the way they understand
+                  and do things. One thing that we all have in common is the way
+                  we cope with our emotions and make decisions. According to the
+                  Myers Brigg results, all members rely on feeling rather than
+                  thinking and think for the well-fare of others. Our main
+                  question is: "who does this help?". This is evident within our
+                  individual project ideas from assignment 1. When it comes to
+                  our learning styles, the results also vary. Some members learn
+                  better by reading and writing while others by listening,
+                  speaking, or trying.
+               </p>
+               <p>
+                  This information is definitely very helpful for the group. To
+                  have effective communication with a positive outcome, one must
+                  first understand who they are communicating with, and what
+                  might be the best way to convey a message to them. By viewing
+                  each other's test results, we can better make use of the
+                  skills and traits each member brings with them. We will know
+                  who may be the best one for a particular task and how to help
+                  or give feedback to another member when needed. Not only does
+                  this help other members, but every individual can also realise
+                  their own weaknesses and work to overcome them in ways which
+                  suit them the best. The result: Hopefully a very successful
+                  and happy team!
+               </p>
+
+               <article id="test-results">
+                  <div class="row">
+                     <div class="col-12 col-xl-6">
+                        <img src="images/hannah-testOutcome.png" alt="Hannah's test outcomes"/>
+                     </div>
+
+                     <div class="col-12 col-xl-6">
+                        <img src="images/fatima-testOutcome.png" alt="Fatima's test outcomes"/>
+                     </div>
+                  </div>
+
+                  <div class="row">
+                     <div class="col-12 col-xl-6">
+                        <img src="images/nathan-testOutcome.png" alt="Nathan's test outcomes"/>
+                     </div>
+                     <div class="col-12 col-xl-6">
+                        <img src="images/sarahC-testOutcome.png" alt="Sarah C's test outcomes"/>
+                     </div>
+                  </div>
+
+                  <div class="row">
+                     <div class="col-12 col-xl-6">
+                        <img src="images/sarahB-testOutcome.png" alt="Sarah B's test outcomes"/>
+                     </div>
+                  </div>
+               </article>
+            </article>
+
+            <article id="ideal-jobs">
+               <h2>Teams Ideal Jobs and Career Path</h2>
+
+               <article id="ideal-jobs-hannah-s">
+                  <h3>Hannah Smith</h3>
+                  <h4>Job</h4>
+                  <h4>Skills Required</h4>
+                  <h4>Current Skills</h4>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua.
+                  </p>
+               </article>
+               <article id="ideal-jobs-fatima-b">
+                  <h3>Fatima Babar</h3>
+                  <h4>Job</h4>
+                  <h4>Skills Required</h4>
+                  <h4>Current Skills</h4>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua.
+                  </p>
+               </article>
+               <article id="ideal-jobs-nathan-s">
+                  <h3>Nathan Smith</h3>
+                  <h4>Job</h4>
+                  <h4>Skills Required</h4>
+                  <h4>Current Skills</h4>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua.
+                  </p>
+               </article>
+               <article id="ideal-jobs-sarah-c">
+                  <h3>Sarah Carney</h3>
+                  <h4>Job</h4>
+                  <h4>Skills Required</h4>
+                  <h4>Current Skills</h4>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua.
+                  </p>
+               </article>
+               <article id="ideal-jobs-sarah-b">
+                  <h3>Sarah Taulava (Brinckman)</h3>
+                  <h4>Job</h4>
+                  <h4>Skills Required</h4>
+                  <h4>Current Skills</h4>
+                  <p>
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                     sed do eiusmod tempor incididunt ut labore et dolore magna
+                     aliqua.
+                  </p>
+               </article>
+            </article>
          </section>
 
-         <!-- Ideal Jobs Section -->
-
-         <div class="jobs">
-            <h2>Teams Ideal Jobs and Career Path</h2>
-            <div class="farrahJob">
-               <h3>Farrah Pillos</h3>
-               <h4>Job</h4>
-               <h4>Skills Required</h4>
-               <h4>Current Skills</h4>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               </p>
-            </div>
-            <div class="fatimaJob">
-               <h3>Replace with Team Member Name</h3>
-               <h4>Job</h4>
-               <h4>Skills Required</h4>
-               <h4>Current Skills</h4>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               </p>
-            </div>
-            <div class="hannahJob">
-               <h3>Hannah Smith</h3>
-               <h4>Job</h4>
-               <h4>Skills Required</h4>
-               <h4>Current Skills</h4>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               </p>
-            </div>
-            <div class="nathanJob">
-               <h3>Nathan Smith</h3>
-               <h4>Job</h4>
-               <h4>Skills Required</h4>
-               <h4>Current Skills</h4>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               </p>
-            </div>
-            <div class="sarahbJob">
-               <h3>Replace with Team Member Name</h3>
-               <h4>Job</h4>
-               <h4>Skills Required</h4>
-               <h4>Current Skills</h4>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               </p>
-            </div>
-            <div class="sarahcJob">
-               <h3>Sarah Carney</h3>
-               <h4>Job</h4>
-               <h4>Skills Required</h4>
-               <h4>Current Skills</h4>
-               <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               </p>
-            </div>
-         </div>
-         <!-- Tools Section -->
-
-         <!-- Industry Data Section -->
-
-         <!-- IT Work Section -->
-         <div class="work">
+         <section id="it-work">
             <h2>IT Work</h2>
-            <div class="JessInterview">
-               <h3>Jess Dodson - Customer Engineer (Microsoft)</h3>
-
-               <p></p>
+            <h3>Jess Dodson - Customer Engineer (Microsoft)</h3>
+            <article id="jess-dodson-job">
                <h4>The job</h4>
                <p>
                   Jess is in her second year of working for Microsoft as a
@@ -291,7 +444,6 @@
                   her time is spent with customers teaching, sharing,
                   demonstrating and troubleshooting.
                </p>
-
                <p>
                   With a background in government and higher education, these
                   tend to be the industries and customers she supports in her
@@ -304,6 +456,9 @@
                   authentication and end to end security conversations are her
                   core focus.
                </p>
+            </article>
+
+            <article id="jess-dodson-activities">
                <h4>The activities</h4>
                <p>
                   A typical day for a Customer Engineer depends on whether they
@@ -325,7 +480,8 @@
                   helpdesk team to the CEO, which requires an aptitude for
                   understanding the audience and delivering a message they can
                   relate to or understand.
-                  <br />
+               </p>
+               <p>
                   On days without customers, Jess focuses her time on technical
                   training and upskilling. Keeping current with the technology
                   she is delivering is critical. She is the face of Microsoft
@@ -334,20 +490,17 @@
                   sure she is up to date on product changes, proposed features,
                   as well as understanding what competitors are doing with their
                   products.
-                  <br />
+               </p>
+               <p>
                   Jess regularly contributes to podcasts, interviews,
                   conferences and other speaking engagements. She is a sought
                   after presenter and dedicates additional time to building her
                   content for these sessions.
                </p>
+
                <p>A typical week for Jess could look something like this:</p>
 
-               <img
-                  src="working-week.png"
-                  alt="Image of calendar"
-                  width="500"
-                  height="200"
-               />
+               <img src="images/working-week.png" alt="Image of calendar" width="100%"/>
 
                <p>Jess faces two main challenges in her role:</p>
                <ol>
@@ -375,13 +528,16 @@
                      forward and sell them to their own internal stakeholders.
                   </li>
                </ol>
+
                <p>
                   Jess's most valuable technical skills at the moment relate to
                   security. She has skills across Azure IaaS which she leverages
                   on a weekly basis, but it is security tools and Azure Sentinel
                   and conversations about Security Incident and Event Management
                   (SIEM) specifically that are in the highest demand.
-                  <br />
+               </p>
+
+               <p>
                   When taking on the Customer Engineer role, Jess was surprised
                   to find that Executive Presence was a skill she needed on an
                   almost daily basis. Often, she isn't talking to just other
@@ -389,11 +545,16 @@
                   C-level executives. This requires her to be compelling and
                   able to demonstrate great presence.
                </p>
+            </article>
+
+            <article id="jess-dodson-interactions">
                <h4>The interactions</h4>
+
                <p>
                   When working with customers, the following are the kinds of
                   roles Jess finds herself interacting with:
                </p>
+
                <ul>
                   <li>Security analysts</li>
                   <li>System admins</li>
@@ -411,10 +572,13 @@
                   of work that Jess delivers, it is unsurprising that she
                   interacts with such a broad range of roles whilst working with
                   customers.
-                  <br />
+               </p>
+
+               <p>
                   At Microsoft, Jess has a second set of internal stakeholders
                   that she interacts with each week. These include:
                </p>
+
                <ul>
                   <li>
                      Account Managers - as they "own" the customer relationships
@@ -448,6 +612,7 @@
                      growth.
                   </li>
                </ul>
+
                <p>
                   The final, and perhaps most significant group of people that
                   Jess interacts with internally are other Customer Engineers.
@@ -463,7 +628,11 @@
                   her be more able to support her customers when they have
                   questions she doesn't have an immediate answer to.
                </p>
+            </article>
+
+            <article id="jess-dodson-closing">
                <h4>In closing</h4>
+
                <p>
                   When asked about an example of the work she does that best
                   captures the essence of the IT industry, Jess shared an
@@ -482,26 +651,30 @@
                   behind, "If you don't like learning, you are going to be in
                   the wrong job".
                </p>
-            </div>
-            <!-- Technologies Section -->
-            <div class="ITtech">
-               <h2>IT Technologies</h2>
-               <h3>Cloud Computing, Services and Servers</h3>
+            </article>
+         </section>
 
-               <p>
-                  Cloud computing is an information technology (IT) advancement
-                  and a dominant business model for IT resource distribution
-                  (Sunyaev, 2020). This is a system In which people and
-                  organisations may obtain on-demand network access to a common
-                  pool of managed and scalable IT resources such as servers,
-                  storage, and software, with cloud computing (Sunyaev, 2020).
-                  According to Gartner’s research, by 2024 the proportion of IT
-                  expenditure shifting to the cloud will increase as an
-                  after-effect of the COVID-19 pandemic. The projection is at
-                  14.2 percent of the IT global enterprise spending market from
-                  9.1 per cent in 2020 (Stamford, 2020). 
-               </p>
+         <section id="industry-data"></section>
+
+         <section id="it-technologies">
+            <h2>IT Technologies</h2>
+
+            <article id="clouds">
+               <h3>Cloud, Services, Servers</h3>
+               <h4>What does it do?</h4>
+               <p></p>
+
+               <h4>What is the likely impact?</h4>
+               <p></p>
+
+               <h4>How will this affect you?</h4>
+               <p></p>
+            </article>
+
+            <article id="security">
                <h3>Cybersecurity</h3>
+
+               <h4>What does it do?</h4>
                <p>
                   Cybersecurity is the process of protecting and guarding the
                   digital world against cybercrimes (Shaukat et al. 2020). Some
@@ -524,14 +697,14 @@
                <p>
                   Today, there are multiple practices through which the security
                   of a digital product or service can be ensured. Some of the
-                  techniques used to prevent against cyberattacks include: Game
-                  theory, rate control, heuristics, signature-based intrusion
-                  detection, autonomous systems, and end user security controls
-                  (Zeadally et al. 2020). When it comes to implementation of
-                  these practices, awareness plays a crucial role. Without an
+                  techniques used to prevent cyber attacks include game theory,
+                  rate control, heuristics, signature-based intrusion detection,
+                  autonomous systems, and end-user security controls (Zeadally
+                  et al. 2020). When it comes to the implementation of these
+                  practices, awareness plays a crucial role. Without an
                   understanding of the importance of cybersecurity and how to
                   deal with cyberattacks, the consequences are bound to be more
-                  damaging. Currently, encryption and identity check are of the
+                  damaging. Currently, encryption and identity checks are the
                   most commonly used tactics for cybersecurity. Anti-virus
                   software and firewalls are used to prevent cyberattacks.
                   Businesses have prioritised cybersecurity challenges (Kaja,
@@ -540,8 +713,8 @@
                   protection, cybersecurity professionals and ethical hackers
                   are hired to identify and secure any surfacing vulnerability
                   within the system. However, as Skopik, Settanni and Fiedler
-                  (2016, p. 154) state, ‘the Internet threat landscape is
-                  fundamentally changing’. The intention and objectives behind
+                  (2016, p. 154) state, 'the Internet threat landscape is
+                  fundamentally changing'. The intention and objectives behind
                   cybercrimes have converted and cyberattacks are now carried
                   out in highly complex and targeted approaches that deceive the
                   average security measures (Skopik, Settanni & Fiedler 2016).
@@ -551,11 +724,11 @@
                   cybercriminals to enter through, leading to destructive
                   consequences for the users of the services and in some cases,
                   to the service owners and providers also (Kaja, Shaout & Ma
-                  2019). As with in the physical world, the digital world also
+                  2019). As within the physical world, the digital world also
                   demands security for its users and the information stored
-                  within it. It is essential that cybersecurity defence systems
-                  are also using state-of-art technologies to tackle the latest
-                  types of cyberattacks.
+                  within it. Cybersecurity defence systems must be also using
+                  state-of-art technologies to tackle the latest types of
+                  cyberattacks.
                </p>
                <p>
                   Data and networks are significantly becoming more and more
@@ -567,8 +740,8 @@
                   issues (Kaja, Shaout & Ma 2019). AI is capable of analysing
                   and inspecting large amounts of data and has proven to be an
                   effective technique for identifying false information
-                  (Zeadally et al. 2020). It can also ‘adapt to the changing
-                  nature of Internet traffic’ (Zeadally et al. 2020, p. 23827)
+                  (Zeadally et al. 2020). It can also 'adapt to the changing
+                  nature of Internet traffic' (Zeadally et al. 2020, p. 23827)
                   This is something that would otherwise consume a lot of time.
                   Machine Learning technologies are a field of Artificial
                   Intelligence (Shaukat et al. 2020) and are currently being
@@ -577,8 +750,8 @@
                   techniques have a crucial part in battling cyberattacks
                   including intrusion detection system, malware detection,
                   phishing detection, spam detection, and fraud detection
-                  (Shaukat et al. 2020). However, there are ethical issues and
-                  concerns that come with the involvement of AI in cybersecurity
+                  (Shaukat et al. 2020). However, some ethical issues and
+                  concerns come with the involvement of AI in cybersecurity
                   (Timmers 2019). Also, the limitation that AI relies on
                   learning data that is manually processed and inspected opens
                   the possibility of inaccurate data with regard to
@@ -595,6 +768,8 @@
                   the next few years, a significant amount of cybersecurity
                   procedures will be performed with the help of AI and ML.
                </p>
+
+               <h4>What is the likely impact?</h4>
                <p>
                   With the involvement of AI in cybersecurity, the process of
                   detecting a security problem and fixing it will require
@@ -604,9 +779,9 @@
                   using the same technologies for performing cyberattacks
                   (Zeadally et al. 2020). Companies will no longer need to hire
                   ethical hackers as this job would be carried out by AI. As
-                  Braganza et al. (2020, p. 1) declare, ‘Artificial intelligence
+                  Braganza et al. (2020, p. 1) declare, 'Artificial intelligence
                   (AI) is challenging the foundations of businesses and changing
-                  the ways people work globally’. Although AI will replace
+                  the ways people work globally'. Although AI will replace
                   humans in cybersecurity process where mechanical and
                   analytical intelligence is required, its potential is limited
                   when it comes to areas that require intuitive and empathetic
@@ -617,16 +792,18 @@
                   efficiency and protection. Although this development will
                   eventually replace some current cybersecurity jobs and
                   technologies, it will bring along new job opportunities such
-                  as AI and ML experts who are familiar with handling the AI
-                  driven cybersecurity systems. Some of the current technologies
-                  may be used in conjunction with the AI and ML techniques to
-                  provide effective security systems.
+                  as AI and ML experts who are familiar with handling the
+                  AI-driven cybersecurity systems. Some of the current
+                  technologies may be used in conjunction with the AI and ML
+                  techniques to provide effective security systems.
                </p>
+
+               <h4>How will this affect you?</h4>
                <p>
                   With real-time detection and protection, the risks of users
                   becoming victims of ransomware will also reduce. Individual
                   home PC users would be safer from cyberattacks with the help
-                  of smarter, AI driven intrusion detection systems. People will
+                  of smarter, AI-driven intrusion detection systems. People will
                   not have to do too much to ensure that their information is
                   protected in the cyberspace as the system will be doing it for
                   them. The chances of human error and slips will be
@@ -636,22 +813,52 @@
                   app or service that may store any sort of personal information
                   can feel more secure and assured that their data is safe from
                   hackers. A drawback that may be faced is that people might
-                  gain a ‘false sense of security’ and trust the AI system and
-                  its decisions without actually knowing the way in which the
-                  decision has been reached (Timmers 2019). It is unrealistic to
-                  say that one will be 100% secure, or that cybersecurity will
-                  be unbreakable. Regardless, as use of the internet increases
+                  gain a 'false sense of security' and trust the AI system and
+                  its decisions without actually knowing how the decision has
+                  been reached (Timmers 2019). It is unrealistic to say that one
+                  will be 100% secure, or that cybersecurity will be
+                  unbreakable. Regardless, as use of the internet increases
                   within society, the ethical security culture would eventually
                   turn into a norm which will assist in tackling cybercrimes
                   (Oreku & Mtenzi 2016).
                </p>
-            </div>
-            <!-- Project Section -->
+            </article>
 
-            <!-- Individual Reflections Section -->
+            <article id="ml">
+               <h3>Machine learning</h3>
 
-            <!-- Team Reflection Sectiomn -->
-         </div>
+               <h4>What does it do?</h4>
+               <p></p>
+
+               <h4>What is the likely impact?</h4>
+               <p></p>
+
+               <h4>How will this affect you?</h4>
+               <p></p>
+            </article>
+
+            <article id="nlp">
+               <h3>Natural language processing & chatterbots</h3>
+
+               <h4>What does it do?</h4>
+               <p></p>
+
+               <h4>What is the likely impact?</h4>
+               <p></p>
+
+               <h4>How will this affect you?</h4>
+               <p></p>
+            </article>
+         </section>
+
+         <section id="project-idea"></section>
+
+         <section id="group-reflection"></section>
       </div>
+
+      <!-- Bootstrap Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+              integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+              crossorigin="anonymous"></script>
    </body>
 </html>
