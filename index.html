@@ -11,32 +11,10 @@
       <link href="style.css" type="text/css" rel="stylesheet"/>
 
       <title>Team Eagle</title>
-
-      <style>
-         .col > img,
-         [class^="col-"] > img {
-            width: 100%;
-         }
-
-         img + p,
-         article + article {
-            margin-top: 1rem;
-         }
-         
-         h1 {
-            margin-top: 1em;
-         }
-         
-         h2 {
-            padding: 5px 0px;
-            border-bottom: solid 1px lightgray;
-            margin-bottom: 1em;
-         }
-      </style>
    </head>
    <body>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-         <div class="container-fluid">
+         <div class="container">
             <a class="navbar-brand" href="#">Team Eagle</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
@@ -66,17 +44,23 @@
                         </li>
                      </ul>
                   </li>
+                  
                   <li class="nav-item">
-                     <a class="nav-link" href="#it-work" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        IT Work
+                     <a class="nav-link" href="#tools" role="button">
+                        Tools
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="#industry-data" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                     <a class="nav-link" href="#industry-data" role="button">
                         Industry Data
                      </a>
                   </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#it-work" role="button">
+                        IT Work
+                     </a>
+                  </li>
+                  
                   <li class="nav-item dropdown">
                      <a class="nav-link dropdown-toggle" href="#it-technologies" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
@@ -101,15 +85,50 @@
                         </li>
                      </ul>
                   </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="#project-idea" role="button" data-bs-toggle="dropdown"
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="#project-idea" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         Project Idea
                      </a>
+                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li>
+                           <a class="dropdown-item" href="#project-overview">Overview
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#project-motivation">Motivation
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#project-description">Description
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#project-Proposed-MVP-and-feature-releases">Proposed MVP and
+                                                                                                      feature releases
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#project-tools-and-technologies">Tools and Technologies
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#project-skills-required">Skills Required
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#project-competitor-analysis">Competitor Analysis
+                           </a>
+                        </li>
+                        <li>
+                           <a class="dropdown-item" href="#project-outcome">Outcome
+                           </a>
+                        </li>
+                     </ul>
                   </li>
+
                   <li class="nav-item">
-                     <a class="nav-link" href="#group-reflection" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                     <a class="nav-link" href="#group-reflection" role="button">
                         Group Reflection
                      </a>
                   </li>
@@ -120,13 +139,14 @@
 
       <div class="container">
          <section id="team-profile">
-            <h1>Team Profile</h1>
+            <h1>Team Eagle's Profile</h1>
 
             <article id="personal-information">
                <h2>Personal Information</h2>
 
                <article id="personal-information-hannah-s">
-                  <h3>Hannah Smith</h3>
+                  <h3>Hannah Smith (s3882518)</h3>
+                  <img src="" class="rounded float-end" alt="" width="200" height="200">
                   <p>
                      Hannah was born and grew up in Australia and currently
                      lives on Sydney's Northern Beaches. She graduated high
@@ -162,7 +182,8 @@
                </article>
 
                <article id="personal-information-fatima-b">
-                  <h3>Fatima Babar</h3>
+                  <h3>Fatima Babar (s3885593)</h3>
+                  <img src="images/profile-photo-fatima-b.png" class="rounded float-end" alt="" width="200" height="200">
                   <p>
                      Fatima is the youngest member on the team. She is an
                      Australian Pakistani girl who is currently living in
@@ -191,7 +212,8 @@
                </article>
 
                <article id="personal-information-nathan-s">
-                  <h3>Nathan Smith</h3>
+                  <h3>Nathan Smith (s3884025)</h3>
+                  <img src="images/profile-photo-nathan-s.png" class="rounded float-end" alt="" width="200" height="200">
                   <p>
                      Nathan enjoys photography and mostly shoots film. He shoots
                      35mm and medium format, with his favourite film being
@@ -222,7 +244,8 @@
                </article>
 
                <article id="personal-information-sarah-c">
-                  <h3>Sarah Carney</h3>
+                  <h3>Sarah Carney (s3888874)</h3>
+                  <img src="images/profile-photo-sarah-c.png" class="rounded float-end" alt="" width="200" height="200">
                   <p>
                      Born in Australia, but with a British mother, Sarah has
                      dual citizenship. She is an inspiring person and someone
@@ -278,7 +301,8 @@
                </article>
 
                <article id="personal-information-sarah-b">
-                  <h3>Sarah Taulava (Brinckman)</h3>
+                  <h3>Sarah Taulava Brinckman (s3889052)</h3>
+                  <img src="images/profile-photo-sarah-b.png" class="rounded float-end" alt="" width="200" height="200">
                   <p>
                      Sarah is deeply passionate about global development issues
                      which led her to work in Tonga in 2014, where she met her
@@ -341,26 +365,28 @@
 
                <article id="test-results">
                   <div class="row">
-                     <div class="col-12 col-xl-6">
+                     <div class="col-12 col-lg-6">
+                        <img src="images/fatima-testOutcome.png" alt="Fatima's test outcomes"/>
+                     </div>
+                     <div class="col-12 col-lg-6">
                         <img src="images/hannah-testOutcome.png" alt="Hannah's test outcomes"/>
                      </div>
 
-                     <div class="col-12 col-xl-6">
-                        <img src="images/fatima-testOutcome.png" alt="Fatima's test outcomes"/>
-                     </div>
+
                   </div>
 
                   <div class="row">
-                     <div class="col-12 col-xl-6">
-                        <img src="images/nathan-testOutcome.png" alt="Nathan's test outcomes"/>
-                     </div>
-                     <div class="col-12 col-xl-6">
+                     <div class="col-12 col-lg-6">
                         <img src="images/sarahC-testOutcome.png" alt="Sarah C's test outcomes"/>
                      </div>
+                     <div class="col-12 col-lg-6">
+                        <img src="images/nathan-testOutcome.png" alt="Nathan's test outcomes"/>
+                     </div>
+
                   </div>
 
                   <div class="row">
-                     <div class="col-12 col-xl-6">
+                     <div class="col-12 col-lg-6">
                         <img src="images/sarahB-testOutcome.png" alt="Sarah B's test outcomes"/>
                      </div>
                   </div>
@@ -370,72 +396,103 @@
             <article id="ideal-jobs">
                <h2>Teams Ideal Jobs and Career Path</h2>
 
-               <article id="ideal-jobs-hannah-s">
-                  <h3>Hannah Smith</h3>
-                  <h4>Job</h4>
-                  <h4>Skills Required</h4>
-                  <h4>Current Skills</h4>
-                  <p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua.
-                  </p>
-               </article>
-               <article id="ideal-jobs-fatima-b">
-                  <h3>Fatima Babar</h3>
-                  <h4>Job</h4>
-                  <h4>Skills Required</h4>
-                  <h4>Current Skills</h4>
-                  <p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua.
-                  </p>
-               </article>
-               <article id="ideal-jobs-nathan-s">
-                  <h3>Nathan Smith</h3>
-                  <h4>Job</h4>
-                  <h4>Skills Required</h4>
-                  <h4>Current Skills</h4>
-                  <p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua.
-                  </p>
-               </article>
-               <article id="ideal-jobs-sarah-c">
-                  <h3>Sarah Carney</h3>
-                  <h4>Job</h4>
-                  <h4>Skills Required</h4>
-                  <h4>Current Skills</h4>
-                  <p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua.
-                  </p>
-               </article>
-               <article id="ideal-jobs-sarah-b">
-                  <h3>Sarah Taulava (Brinckman)</h3>
-                  <h4>Job</h4>
-                  <h4>Skills Required</h4>
-                  <h4>Current Skills</h4>
-                  <p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua.
-                  </p>
-               </article>
+               <p>
+                  Team Eagle’s career aspirations vary and correspondingly,
+                  so do the career paths. While some members strive for management
+                  roles such as Chief Information Officer or Research Director of
+                  Engineering and Design, other members are interested in more
+                  technically focused roles such as the path of a developer. Roles
+                  of interest include a Senior Digital Designer, a Mobile Developer,
+                  and a Full Stack Machine Learning Engineer. This variation is not
+                  surprising given the different life and career stages each member
+                  of the team is in.
+               </p>
+
+               <p>
+                  Shown in the two tables below are the different skills required
+                  and the responsibilities for each of the roles. The tables show
+                  us the cross over in the skills and responsibilities for each of
+                  the roles as well as the standalone skills required
+               </p>
+
+               <figure>
+                  <img src="images/Skills-Comparison.png" alt="Skills comparison table" style="width:100%">
+                  <figcaption>Table 1.0 - Skills Comparison</figcaption>
+               </figure>
+
+               <figure>
+                  <img src="images/Responsibilities-Comparison.png" alt="Responsibilities comparison table"
+                       style="width:100%">
+                  <figcaption>Table 1.1 - Responsibilites Comparison</figcaption>
+               </figure>
+
+               <p>
+                  Most of the team plan to complete the Bachelor of Information
+                  Technology degree with RMIT, but that is where our career plans
+                  diverge. Some are looking at internships, during the period of
+                  the degree, to gain experience before exploring a role that will
+                  take them a step closer to their ideal job. Others are looking at
+                  moving directly into their first paying role on their way to
+                  reaching their ideal job. Some of the first jobs being targeted
+                  by the team on completion of the degree are data analyst, UX/UI
+                  designer and web designer.
+               </p>
+
+               <p>
+                  One member of the team has gone a step further with their career
+                  plan by mapping out a three-year plan. This includes other courses
+                  and programs along with industry certifications. Across the three
+                  years, broadening their technical knowledge and understanding of
+                  industry trends as well as seeking mentoring from someone in their
+                  ideal role.
+               </p>
+
+               <p>
+                  To conclude, this comparison shows, while most of our group are
+                  aiming to complete the Bachelor of Information Technology degree,
+                  there will be different outcomes and career trajectories. The
+                  collective ideal jobs, whilst having some similar skills and
+                  responsibilities, are all different.
+               </p>
             </article>
+           
+         </section>
+         
+         <section id="tools">
+            <h1>Tools</h1>
+            <h2>Group members' individual profile websites</h2>
+           <p> <b>Hannah Smith's Website:</b>
+            <a href="https://hannahes.github.io/Profile/">https://hannahes.github.io/Profile/</a><br>
+            <b>Fatima Babar's Website:</b>
+            <a href="https://ftbabar.github.io/RMIT-ProfileA1/">https://ftbabar.github.io/RMIT-ProfileA1/</a><br>
+            <b>Nathan Smith's Website:</b>
+            <a href="https://smithna84.github.io/Intro_to_IT/">https://smithna84.github.io/Intro_to_IT/</a><br>
+            <b>Sarah Carney's Website:</b>
+            <a href="https://s3888874.github.io/myitprofile/ ">https://s3888874.github.io/myitprofile/ </a><br>
+            <b>Sarah Brinckman's Website:</b>
+            <a href="https://sarahtaulava.github.io/Profile/">https://sarahtaulava.github.io/Profile/</a><br>
+           </p>
+            <h2>Microsoft Teams Usage</h2>
          </section>
 
          <section id="it-work">
-            <h2>IT Work</h2>
-            <h3>Jess Dodson - Customer Engineer (Microsoft)</h3>
+            <h1>IT Work</h1>
+            <h2>Jess Dodson - Customer Engineer (Microsoft)</h2>
             <article id="jess-dodson-job">
-               <h4>The job</h4>
+               <h3>The job</h3>
                <p>
                   Jess is in her second year of working for Microsoft as a
-                  Customer Engineer. Having previously worked as a System
+                  Customer Engineer. Jess’s love of IT started at a young age and was encouraged by her father who was a
+                  System Engineer. She found she always loved computers and selected numerous IT subjects to pursue when
+                  she started High School. Jess unfortunately didn’t achieve the results she had hoped to on leaving
+                  school and took a six month break before she returned to IT. Jess enrolled initially for a Certificate
+                  IV, and then Diploma in Network Engineering. With this knowledge, she started a role on an IT Help
+                  Desk, while she studied for her Bachelor of IT. When asked about what was most valuable out of her
+                  studies, Jess felt that the technical skills dated quickly, but that university had taught her how to
+                  learn, which she finds critical in her current role.
+               </p>
+               <p>
+                  Having previously worked as a System
                   Administrator, Jess has expertise in the area of security,
                   which is what she now predominantly specialises in. The main
                   focus of her current role is to support her customers in their
@@ -459,7 +516,7 @@
             </article>
 
             <article id="jess-dodson-activities">
-               <h4>The activities</h4>
+               <h3>The activities</h3>
                <p>
                   A typical day for a Customer Engineer depends on whether they
                   are scheduled to be with a customer or not. On a customer
@@ -545,10 +602,17 @@
                   C-level executives. This requires her to be compelling and
                   able to demonstrate great presence.
                </p>
+
+               <p>
+                  One of her favourite things about working in IT is that it is
+                  ever changing. She enjoys the rapid pace of change and the
+                  fact that she can never be sure what she will be working on in
+                  the coming years.
+               </p>
             </article>
 
             <article id="jess-dodson-interactions">
-               <h4>The interactions</h4>
+               <h3>The interactions</h3>
 
                <p>
                   When working with customers, the following are the kinds of
@@ -630,8 +694,29 @@
                </p>
             </article>
 
+            <article id="jess-dodson-thoughts">
+               <h3>Thoughts on Team Eagle's Project</h3>
+
+               <p>
+                  Jess is passionate about Diversity and Inclusion and speaks
+                  publicly on the subject. She loved the idea of the project
+                  that Team Eagle is pursuing and stated that she wished more
+                  organisations had a tool like it. She could easily see the
+                  potential application of IT in this space and identified some
+                  of the elements that would help make it successful such as
+                  Machine Learning and AI capabilities. On discussing potential
+                  challenges, she flagged that she thought that defining the
+                  parameters for inclusion could be the hardest part for the
+                  team. Jess highlighted that what makes an inclusive job
+                  description can be subjective and is reader dependent.
+                  Her advice was to seek clarity around how inclusion was
+                  defined and to be aware of the team’s own biases, as that is
+                  what the tool is trying to solve for.
+               </p>
+            </article>
+
             <article id="jess-dodson-closing">
-               <h4>In closing</h4>
+               <h3>In closing</h3>
 
                <p>
                   When asked about an example of the work she does that best
@@ -651,30 +736,498 @@
                   behind, "If you don't like learning, you are going to be in
                   the wrong job".
                </p>
+
+               <p>
+                  Jess’s advice to those looking to get into the field of IT is
+                  to learn as much as you can about a broad range of areas. She
+                  feels that unless you know exactly what you want to do,
+                  having a broad knowledge will help you in securing your first
+                  IT roles. She also expressed that she felt the Bachelor of IT
+                  was an excellent way for people to prepare for an IT career
+                  given the breadth of content covered.
+               </p>
             </article>
          </section>
 
-         <section id="industry-data"></section>
+         <section id="industry-data">
+            <h1>Industry Data</h1>
+            <article id="members-ideal-jobs">
+            <h2>Group Members' Ideal Jobs</h2>
+            <h4> What are the Job Titles for your group's ideal jobs? How do
+                 each of these rank in terms of demand from employers?</h4>
+            <figure>
+               <img class="full width" src="images/Figure 1.png" alt="Team's Top Job Titles">
+               <figcaption> Figure 1 <br> 1 (Burning Glass Technologies, 2018a)
+                  <br> 2 (Burning Glass Technologies, 2018a)</figcaption>
+            </figure>
+            <p>
+               Technical Lead was chosen for Hannah’s Burning Glass Match
+               because her role would involve leading a large team of technical
+               experts and was the closest fit. Big Data Engineer was chosen for
+               Nathan as big data is usually associated with machine learning
+               algorithms and this was the closest fit. ‘Full Stack Engineer’
+               did not appropriately capture Nathan’s particular interest in
+               machine learning and artificial intelligence. While these are
+               the best fit out of the Titles in the data, in reality, the
+               roles chosen by Hannah or Nathan do not appear in these lists.
+               This may indicate an even smaller number of hires in these
+               roles and they are both roles that would likely appear on this
+               list rather than a list from another profession.
+            </p>
+            <p>
+               For this exercise roles were chosen that were more generally
+               in the direction of interest, so the specificity of these titles
+               is perhaps not the best data-set for considering the team’s
+               prospects. As seen in Figure 1, all positions are outside of the
+               top 25 Titles with Hannah the highest-ranked at 31 and Sarah C at
+               77 followed by Fatima, Sarah B, and Nathan. The more generalised
+               ‘Top Occupations’ list shows a more positive result and is perhaps
+               the more relevant when deciding a way forward at this early stage
+               in the course. Here, if a job was felt to relate to multiple
+               occupations, both were included. This was to give an idea of the
+               range of options/directions but the strongest match was graphed
+               with a solid black line and the minor occupation a dotted line,
+               See figure 2.1. But again, there was no exact match for
+               Nathan’s interest in machine learning so the closest related
+               occupations were used.
+            </p>
+            <p>
+               All data sets have been colour coded as follows to provide a
+               quick visual representation of the interest in each role/skill
+               and an overall feeling for the combination of skills:
+            </p>
+            <img
+               src="images/Key.png"
+               alt="Colour Key"
+               width="50%"
+            />
+            
+            <img class="full width" src="images/Figure 2.png" alt="Team's Top Occupations">
+            <figcaption> Figure 2 <br>1 (Burning Glass Technologies, 2018b) 
+            <br>2 (Burning Glass Technologies, 2018b) </figcaption>
+            </figure>
+            <figure>
+
+               <img class="full width" src="images/Figure 3.png" alt="Team's Top Occupations chart">
+               <figcaption> Figure 3 - (Burning Glass Technologies, 2018b)</figcaption>
+            </figure>
+            </article>
+            <article id="skill-analysis">
+               <h2> Skills Analysis </h2>
+               <p>
+                  While this data provides useful insight into what
+                  may be a fruitful addition to a curriculum vitae it
+                  should be viewed more as a general guide to consider
+                  which skills an individual has overall and where they
+                  might be missing some opportunities. It would be
+                  useful for job seekers to incorporate some of these
+                  terms/skills, particularly generic skills, which they
+                  may possess but may not have thought to actively include
+                  in previous job applications.
+               </p>
+               <p>
+                  Some highly ranked skills are more complimentary for many
+                  jobs but would rarely be the primary skill to determine
+                  eligibility, like communication skills. Some terms may
+                  be interchangeable to recruiters like ‘self-motivation’
+                  and ‘self-starter’ so it is difficult to ensure complete
+                  coverage.  It is also worth pointing out that some of the
+                  skills likely to determine job eligibility are not directly
+                  matched those of the Burning Glass data, nor would some
+                  implied skills be explicitly listed to feed into the Burning
+                  Glass text analysis algorithms. For example, Hannah’s job
+                  makes no mention of specific technologies, but would it be
+                  possible to lead an Innovative Engineering and Design team
+                  without a solid technical understanding? Perhaps, but
+                  unlikely. However, Burning Glass’ data has proven quite
+                  accurate/useful, and inclusive overall.
+               </p>
+               <h3>General skills</h3>
+               <h4>How do the general skills in your required skill set rank in
+                   terms of demand from employers?</h4>
+               <p>
+                  Generic skills identified were matched with their closest terms
+                  in the Burning Glass Generic Dataset (Burning Glass Technologies
+                  2018d), however, some terms were only found in either the IT
+                  Skills dataset or the Data_Software & Programming dataset
+                  (Burning Glass Technologies 2018d) which were more generic–
+                  they are denoted by an asterisk (*). Each list has been colour
+                  coded by quintile so comparing across datasets for a general
+                  idea about the popularity of these particular skills is still
+                  useful even when the datasets vary in size.
+               </p>
+               <figure>
+                  <img class="full width" src="images/Figure 4.png" alt="Hannah's Generic Skills">
+                  <figcaption> Figure 4</figcaption>
+               </figure>
+               <figure>
+                  <img class="full width" src="images/Figure 5.png" alt="Nathan's Generic Skills">
+                  <figcaption> Figure 5</figcaption>
+               </figure>
+               <figure>
+                  <img class="full width" src="images/Figure 6.png" alt="Fatima's Generic Skills">
+                  <figcaption> Figure 6</figcaption>
+               </figure>
+               <figure>
+                  <img class="full width" src="images/Figure 7.png" alt="Sarah B's Generic Skills">
+                  <figcaption> Figure 7</figcaption>
+               </figure>
+               <figure>
+                  <img class="full width" src="images/Figure 8.png" alt="Sarah C's Generic Skills">
+                  <figcaption> Figure 8</figcaption>
+               </figure>
+               <h4>Summary of Generic Skills demand for each team member</h4>
+               <figure>
+                  <img class="full width" src="images/Figure 9.png" alt="Summary Generic Skills">
+                  <figcaption> Figure 9</figcaption>
+               </figure>
+               <h3>IT skills</h3>
+               <h4>How do the IT skills in your required skill set rank in
+                   terms of demand from employers?</h4>
+               <figure>
+                  <img class="full width" src="images/Figure 10.png" alt="Hannah's IT skills">
+                  <figcaption> Figure 10</figcaption>
+               </figure>
+               <figure>
+                  <img class="full width" src="images/Figure 11.png" alt="Nathan's IT Skills">
+                  <figcaption> Figure 11</figcaption>
+               </figure>
+               <figure>
+                  <img class="full width" src="images/Figure 12.png" alt="Fatima's IT Skills">
+                  <figcaption> Figure 12</figcaption>
+               </figure>
+               <figure>
+                  <img class="full width" src="images/Figure 13.png" alt="Sarah B's IT Skills">
+                  <figcaption> Figure 13</figcaption>
+               </figure>
+               <figure>
+                  <img class="full width" src="images/Figure 14.png" alt="Sarah C's IT Skills">
+                  <figcaption> Figure 14</figcaption>
+               </figure>
+               <h4> Summary of IT Skills Demand for Each Team Member </h4>
+               <figure>
+                  <img class="full width" src="images/Figure 15.png" alt="Summary IT Skills">
+                  <figcaption> Figure 15</figcaption>
+               </figure>
+               <h3>Missing skills</h3>
+               <h4>What are the three highest-ranked IT-specific skills which are
+                   not in your required skill set (Burning Glass Technologies, 2018c)?</h4>
+               <ol>
+                  <li> SQL is the 1st ranked IT skill that was not included
+                       in the skillset </li>
+                  <li> Microsoft Windows is the 4th ranked skill which was not
+                       included in the skillset.</li>
+                  <li> Project Management is the 5th ranked skill not included
+                       in the skillset. This would form part of these roles but was
+                       included in the generic skillset.</li>
+               </ol>
+               <h4> What are the three highest-ranked general skills which are
+                    not in your required skill set? (Burning Glass Technologies,
+                    2018d) </h4>
+
+               <ol>
+                  <li> Problem-solving is the 2nd ranked Generic skill that
+                       was not included in the skillset, however, it would certainly
+                       be a part of all of these positions but was just not
+                       articulated in the advertisements. Strategic planning would
+                       involve problem-solving as well as change management and
+                       project planning and development.</li>
+                  <li> Troubleshooting is the 6th ranked generic skill that
+                       was not included in the skillset, however, it is similar to
+                       problem-solving, and elements of troubleshooting would likely
+                       be a part of all these roles. </li>
+                  <li> Quality Assurance and Control is the 14th ranked skill
+                       that was not included in the skillset. Again, there would be
+                       elements of this in these roles but it was not highlighted in
+                       the job advertisements. </li>
+               </ol>
+            </article>
+            <article id="thoughts-on-changing-ideal-jobs">
+               <h2>Members' thoughts about changing their ideal jobs</h2>
+               <h4> Having looked at the Burning Glass data, has your opinion of
+                    your ideal job changed? Why or why not? </h4>
+               <p> Hannah is open to the development of career goals over time.
+                   Making sure to broaden the focus of skillsets acquired will
+                   boost hireablility. Fluidity in thinking will maintain a
+                   relevant outlook. Though the initial aim was Design Director,
+                   the data shows the broader term of Technical Lead to be a
+                   more available position. Keeping an eye on the requirements
+                   for new job roles within IT will direct study paths and
+                   ensure the current practice is forefront in learning.
+                   Networking amongst like-minded peers will open channels to
+                   job roles. Some of the profile tools used to develop these
+                   connections and showcase skills are Slack groups, Linked In,
+                   Twitter, and Blogs. Hannah is following mentor careers and
+                   panels in the hope of emulating them. </p>
+
+               <p>Nathan’s passionate interest in machine learning and
+                  particularly artificial intelligence (AI) has not been
+                  dampened by this analysis. Demand for machine learning in a
+                  variety of industries is growing rapidly and, considering that
+                  these figures are from 2018, it would not be surprising to
+                  see demand for these skills already higher and growing
+                  substantially over the short to medium-term. Many of the
+                  skills which build the foundation for machine learning
+                  projects are already in high demand, so working towards an
+                  ultimate career in AI by gaining expertise in big data, data
+                  engineering, programming with git and python would be a
+                  practical choice with many opportunities along the way.
+               </p>
+
+               <p>Fatima’s opinion of her ideal job has not changed. She realises
+                  that some of the skill set required for her ideal job as not
+                  very much in demand. This is a major reason why Fatima chose to
+                  complete 12 of RMIT’s subjects (from the Bachelor of IT degree)
+                  alongside her actual goal of completing a Bachelor of Arts in
+                  UX/UI design. She plans to choose these 12 subjects carefully,
+                  keeping in mind the most in-demand skills in the IT industry.
+                  Fatima expects that with the completion of these subjects, she
+                  will have gained a variety of good IT and Generic skills related
+                  to software development that will be of help if, and when she
+                  decides to change careers.
+               </p>
+
+               <p> Sarah B has concluded that it would be sensible to broaden
+                   the direction of an ideal job to focus more on software
+                   development and web development rather than specifically mobile
+                   application development. Remote opportunities are more readily
+                   available in programming/software and including these skills
+                   would increase the likelihood of better roles in the future.
+                   This is also a skillset well utilised in the international
+                   development space.  It would still appropriate to pursue an
+                   internship or job opportunity with a company like Ionata
+                   Digital, per her learning plan, as they work on a broader range
+                   of products with an application development portion too. This
+                   data makes it clear that communication skills are important to
+                   employers across most jobs and it would be advantageous to
+                   actively develop these further.
+               </p>
+
+               <p>Sarah C can see that there are limited opportunities in her
+                  chosen career path, but this is not surprising as not all
+                  organisations will have a CIO. If they do have a CIO, there is
+                  usually only one of those roles available within an organisation
+                  which aligns with why most of the skillsets for the role are
+                  also not as common. As the job descriptions for the CIO role do
+                  not consistently list specific technical skills, this will
+                  likely be the most challenging area for Sarah to focus on. The
+                  majority of the skills listed are generic skills, which also
+                  make differentiation in the marketplace hard. This is a
+                  long-term goal and will require consistent focus, as well as
+                  continuing to revisit job descriptions to make sure her
+                  development plan remains relevant and targeted.
+               </p></article>
+         </section>
 
          <section id="it-technologies">
-            <h2>IT Technologies</h2>
+            <h1>IT Technologies</h1>
 
             <article id="clouds">
-               <h3>Cloud, Services, Servers</h3>
-               <h4>What does it do?</h4>
-               <p></p>
+               <h2>Cloud Computing</h2>
+               <h3>What does it do?</h3>
+               <p>Cloud computing is a leading business methodology involving an
+                  advancement of information technology (IT) distribution. It is
+                  the amalgamation of resources, including infrastructure, storage,
+                  applications and service, with scalable,
+                  on-demand access given to stakeholders (Sunyaev 2020).
+                  Structurally, cloud-based computing is partitioned into four main
+                  areas which maintain different resources. They are equipment,
+                  infrastructure, platform and application. The initial section,
+                  referring to hardware, includes the physical
+                  elements of storage including servers within a data centre and
+                  the components, such as cables, energy and cooling systems
+                  (Zhang, Chang & Boutaba 2014). There are many parts to the
+                  equipment meaning data centres need masses of
+                  maintenance. Worldwide, the largest data centres for cloud
+                  computing belong to Amazon, Microsoft, Google and IBM.
+                  The next level is infrastructure, otherwise known as
+                  virtualisation, wherein a simulated computing environment is
+                  produced. Virtualisation is a division of computing resources
+                  and memory that coalesce, creating virtual environments,
+                  stored on servers that share assets. Virtualisation is made
+                  possible through programs such as VMware and Xem. Incorporating
+                  application frameworks and operating systems is the section above
+                  infrastructure, referred to as a platform.
+                  The objective of the platform is to facilitate application
+                  efficiency. Spearheading these sectional layers is cloud
+                  applications. These comprise of software components and local
+                  programs (Zhang, Chen & Boutaba 2014). These layers may
+                  be classified as cloud service models.
+                  Cloud service models come under three categories, Software as a
+                  Service (SaaS), Platform as a Service (PaaS), and Infrastructure
+                  as a Service (IaaS). Despite the three cloud services being
+                  different in nature, the collective aim is
+                  facilitating consumers to utilise systems and programs
+                  effectually. The three deployment models are public, private and
+                  hybrid. (Kavis 2014)
+               </p>
+               <p>
+                  <b>What is the state of the art of this new technology?</b>
+                  <br>
+                  The use of the public cloud is growing at treble the rate of
+                  private cloud usage as examined by the Flexera 2020 State of the
+                  Cloud Report. Cloud service is an exponentially growing field
+                  with over a quarter of all tech spending used
+                  on SaaS platforms in 2020 and that number projected to rise.
+                  Amazon Web Services dominate the market for cloud services,
+                  though all providers are showing growth. Most enterprises are
+                  utilising a multi-cloud approach. The adoption of
+                  cloud services, now considered the norm, and sixty percent of
+                  organisations will employ cloud managed services by 2022
+                  (Gartner 2019). As cloud services increase, costs regulate,
+                  meaning accessibility for more end users. Therefore,
+                  advancements in Artificial Intelligence (AI) and accessible
+                  scalability result in widespread capabilities and innovations.
+                  Data patterns are emerging with the Internet of Things (IoT),
+                  meaning the spectrum is widened with DevOps
+                  automation using a central platform for testing and the
+                  accumulated data has cloud-based storage. With that storage and
+                  shared capability, rapid developments are emerging with Edge
+                  computing. Similar advancements can be seen in the
+                  fields of Blockchain, Virtual Reality (VR) and Augmented Reality
+                  (AR). This progression is due to cloud-based tools enabling
+                  developers with abilities to test, collaborate, create and deploy
+                  applications.
+               </p>
+               <p>
+                  <b>What can be done now?</b>
+                  <br>
+                  Cost reduction associated with the acquisition, management and
+                  maintenance of IT systems has paved the road for creativity and
+                  development of new products and services. Examples of end
+                  products users have access to thanks to the cloud
+                  are chatbots, social networks, communications, and business
+                  management and entertainment platforms.
+               </p>
+               <p>
+                  <b>What is likely to be able to be done soon (say in the next 3
+                     years)?
+                  </b>
+                  <br>
+                  The forecast is continued growth within this sector. As it
+                  becomes increasingly available, many developers will have
+                  opportunities to develop new technologies and advancements in
+                  AI, IoT, AR, VR and other exciting fields. Cloud
+                  computing is the backbone for development. We will see an
+                  adaption of a serverless model (Flexera 2020), multi-cloud
+                  growth, and an increase in Edge technologies.
+               </p>
+               <p>
+                  <b>What technological or other developments make this possible?</b>
+                  <br>
+                  Cloud computing has shown rapid growth with the development of
+                  wireless telecommunication (Stergiou & Psannis 2017). Seamless
+                  internet access provides a better cloud computing experience.
+                  Furthermore, with different web-enabled gadgets
+                  such as smartphones and tablets, services and storage are highly
+                  accessible.
+               </p>
 
-               <h4>What is the likely impact?</h4>
-               <p></p>
+               <h3>What is the likely impact?</h3>
+               <p>With the expansion of cloud services comes many exciting and
+                  varied developments within the technology field that will impact
+                  daily interactions and functions as a society. Not only does it
+                  save companies money, allowing them to use
+                  resources to develop new technologies more rapidly, but it also
+                  creates a centralised online work environment. Therefore,
+                  employees can collaborate fluidly with their teams and other
+                  businesses with decentralised physical workspaces.
+                  The rise of remote collaboration has brought with it security
+                  issues. The main security issues companies’ face with
+                  cloud-based, multi-party work models are malware, phishing
+                  scams, patches for old operating systems of bring your own
+                  devices (BYOD) and configuration drift. To combat this, Alam
+                  (2020) suggests adhering to an industry uniform set or
+                  parameters offered in an open-source resource to avoid service
+                  disruption. Alam (2020) also recommends Symmetric key
+                  Encryption for mobile cloud computing (MCC) devices.
+               </p>
+               <p>
+                  <b>What is likely to change?</b>
+                  <br>
+                  Due to the structure of cloud computing, the responsibility of
+                  security and privacy are distributable amongst providers.
+                  Proportionate to the risk, consumers should expect and demand
+                  expansion of Security, Transparency and Mutual Audit
+                  (Ouedraogo et al. 2015). Aside from privacy and security issues,
+                  cloud-based computing will impact the evolution of healthcare,
+                  business, marketing, social media and the way we use everyday
+                  items with IoT. Cloud computing will reach
+                  nearly all aspects of our lives, specifically focussed on
+                  economic and technological penetration (Vu, Hartley &
+                  Kankanhalli 2020).
+               </p>
+               <p>
+                  <b>Which people will be most affected and how?</b>
+                  <br>
+                  Groups previously unable to access resources now can do so
+                  because of the global reach of cloud computing. Services
+                  available online will change the lives of those who earlier
+                  found education, healthcare, banking, science, agriculture,
+                  work and other essentials inaccessible.
+               </p>
+               <p>
+                  <b>Will this create, replace or make redundant any current jobs or
+                     technologies?
+                  </b>
+                  <br>
+                  Job loss due to automation is inevitable with the most vulnerable
+                  positions are the entry-level services such as customer service
+                  and delivery work.
+               </p>
 
-               <h4>How will this affect you?</h4>
-               <p></p>
+               <h3>How will this affect you?</h3>
+               <p>
+                  <b>In your daily life, how will this affect you?</b>
+                  <br>
+                  Cloud computing has already benefited life in many ways. The
+                  opportunity for remote work, creating a flexible work routine has
+                  meant more time may be spent on personal pursuits resulting in
+                  increased job satisfaction and productivity
+                  (Felstead & Henseke 2017). Further, CC developments have meant
+                  more connectivity, more capability and faster access to the web.
+                  Another benefit is the access and consumption of more on-demand
+                  digital products such as Netflix and
+                  Spotify streaming services.
+               </p>
+               <p>
+                  <b>What will be different for you?</b>
+                  <br>
+                  New products and services will be accessible to consumers
+                  because of pooled resources and business cost reduction. An
+                  example of a more accessible product will be the release of the
+                  low-cost Tesla 3 electric car. Ecommerce and
+                  Mcommerce will be a more immersive and efficient customer
+                  experience, thanks to the flourishing of AI technologies that
+                  are improving due to cloud access.
+               </p>
+               <p>
+                  <b>How might this affect members of your family or your friends?</b>
+                  <br>
+                  Globally, the advancements that have resulted from cloud
+                  computing also mean the automation of many jobs and therefore,
+                  job loss or sustained unemployment. Jobs for low skilled and
+                  young workers, now progressively replaced by bots and
+                  programs supported by cloud software, and even higher-level jobs,
+                  like accountants and executives, are not immune from job
+                  insecurity due to automation (Tang, Ma & Luo 2020). This
+                  sustained job loss may lead to an unstable economy.
+                  Another effect is consumption trends. Digital natives are hungry
+                  for new digital experiences, and as such, demand and usage
+                  increase. Platforms like Zoom and Netflix have seen exponential
+                  growth during the Covid-19 pandemic and digital
+                  platforms will continue to expand.
+                  The continued digitisation of mobility, healthcare and
+                  real-estate is imminent and this will not only affect job
+                  availability and focus but also the way consumers interact with
+                  these fields.
+               </p>
             </article>
 
             <article id="security">
-               <h3>Cybersecurity</h3>
+               <h2>Cybersecurity</h2>
 
-               <h4>What does it do?</h4>
+               <h3>What does it do?</h3>
                <p>
                   Cybersecurity is the process of protecting and guarding the
                   digital world against cybercrimes (Shaukat et al. 2020). Some
@@ -695,6 +1248,8 @@
                   risks of malicious threats (Shaukat et al. 2020).
                </p>
                <p>
+                  <b>What is the state of the art of this new technology? What can be done now?</b>
+                  <br>
                   Today, there are multiple practices through which the security
                   of a digital product or service can be ensured. Some of the
                   techniques used to prevent cyber attacks include game theory,
@@ -731,6 +1286,10 @@
                   cyberattacks.
                </p>
                <p>
+                  <b>What is likely to be able to do be done soon (say in the next 3 years)? What technological or other
+                     developments make this possible?
+                  </b>
+                  <br>
                   Data and networks are significantly becoming more and more
                   sophisticated. This is an area where artificial intelligence
                   (AI) and machine learning (ML) can work better than humans to
@@ -769,8 +1328,10 @@
                   procedures will be performed with the help of AI and ML.
                </p>
 
-               <h4>What is the likely impact?</h4>
+               <h3>What is the likely impact?</h3>
                <p>
+                  <b>What is likely to change?</b>
+                  <br>
                   With the involvement of AI in cybersecurity, the process of
                   detecting a security problem and fixing it will require
                   significantly less time. The approach will focus more on
@@ -781,8 +1342,12 @@
                   ethical hackers as this job would be carried out by AI. As
                   Braganza et al. (2020, p. 1) declare, 'Artificial intelligence
                   (AI) is challenging the foundations of businesses and changing
-                  the ways people work globally'. Although AI will replace
-                  humans in cybersecurity process where mechanical and
+                  the ways people work globally'.
+               </p>
+               <p>
+                  <b>Will this create, replace or make redundant any current jobs or technologies?</b>
+                  <br>
+                  Although AI will replace humans in cybersecurity process where mechanical and
                   analytical intelligence is required, its potential is limited
                   when it comes to areas that require intuitive and empathetic
                   intelligence (Braganza et al. 2020). Consequently, the
@@ -798,8 +1363,10 @@
                   techniques to provide effective security systems.
                </p>
 
-               <h4>How will this affect you?</h4>
+               <h3>How will this affect you?</h3>
                <p>
+                  <b>What will be different for you? How might this affect members of your family or your friends?</b>
+                  <br>
                   With real-time detection and protection, the risks of users
                   becoming victims of ransomware will also reduce. Individual
                   home PC users would be safer from cyberattacks with the help
@@ -825,33 +1392,742 @@
             </article>
 
             <article id="ml">
-               <h3>Machine learning</h3>
+               <h2>Machine learning</h2>
 
-               <h4>What does it do?</h4>
+               <h3>What does it do?</h3>
                <p></p>
 
-               <h4>What is the likely impact?</h4>
+               <h3>What is the likely impact?</h3>
                <p></p>
 
-               <h4>How will this affect you?</h4>
+               <h3>How will this affect you?</h3>
                <p></p>
             </article>
 
             <article id="nlp">
-               <h3>Natural language processing & chatterbots</h3>
+               <h2>Natural language processing & chatterbots</h2>
 
-               <h4>What does it do?</h4>
+               <h3>What does it do?</h3>
                <p></p>
 
-               <h4>What is the likely impact?</h4>
+               <h3>What is the likely impact?</h3>
                <p></p>
 
-               <h4>How will this affect you?</h4>
+               <h3>How will this affect you?</h3>
                <p></p>
             </article>
          </section>
 
-         <section id="project-idea"></section>
+         <section id="project-idea">
+            <h1>Project concept - InRecruit</h1>
+            <article id="project-overview">
+               <h2>Overview</h2>
+               <p>InRecruit is a software platform that will be used by
+                  organisations to improve the overall quality, consistency, and
+                  inclusivity of the job descriptions they use to attract new talent.
+                  The program will be used by HR teams, hiring managers, talent
+                  acquisition, and anyone involved in a company’s hiring process.
+                  InRecruit will provide them with an easy to navigate interface,
+                  built-in curated job description libraries, critically it will
+                  offer recommendations for improvement, identity potential bias,
+                  and help organisations track and improve the inclusiveness of
+                  their job descriptions.
+               </p>
+               <p>When looking to hire new staff, rarely will an organisation
+                  deliberately set out to exclude entire groups within the
+                  population. In fact, in the last five years, there has been an
+                  increasing focus globally on diversity and inclusion in the
+                  workplace. Market leaders across the IT industry have added Chief
+                  Diversity Officers and Managers to their teams including Google,
+                  Facebook, Twitter, Microsoft, Dropbox, Salesforce, and Airbnb
+                  (TechRepublic, 2016). Studies by both Forbes and Harvard Business
+                  School reinforce the benefits of diversity on both the innovation
+                  and financial performance of organisations.
+               </p>
+               <q>Competition for talent is fierce in today’s global economy,
+                  so companies need to have plans in place to recruit, develop,
+                  and retain a diverse workforce. (Forbes, 2011)
+               </q>
+               <p>Understanding how to be inclusive when writing a job description
+                  and applying that consistently across an organisation is the
+                  challenge faced by most companies. InRecruit will help
+                  organisations in their quest to attract diverse talent by
+                  simplifying this critical part of the hiring process.
+               </p>
+               <p>Bridging the gap between recruiters and candidates, InRecruit
+                  offers employers a tool to help quickly and easily build
+                  inclusive job descriptions, optimised to attract the broadest
+                  range of potential candidates to the organisation. With a simple
+                  to use interface, recruiters can select from pre-defined fields
+                  and the tool populates an inclusive job description, provides
+                  suggestions and recommendations on how to improve your job
+                  description, and supports approval workflows and automatic job
+                  posting. Based on current best practice, whilst removing as much
+                  bias as possible from the process, InRecruit reduces the workload
+                  of managers, human resources (HR), and talent acquisition teams.
+                  Utilising industry standards, organisational preferences and data
+                  gathered through the application process the software further
+                  refines and learns, to remain relevant over time.
+               </p>
+               <p>There are lots of tools available in the market that assist with
+                  building static job descriptions. What makes InRecruit different
+                  is that it has inclusivity built-in, end to end, helping
+                  organisations stand out in competitive markets, and enabling them
+                  to attract a broader range of candidates. The area of inclusive
+                  hiring has had a lot written about it, but in terms of tools to
+                  support organisations, there are very few available. When it
+                  comes to key features such as analytics, benchmarking,
+                  market-specific insights, and on-demand training, there are no
+                  applications that can deliver all these features, as well as
+                  support inclusive features such as keyword screening, bias
+                  analytics, and recommendations.
+               </p>
+            </article>
+            <article id="project-motivation">
+               <h2>Motivation</h2>
+               <p>Why does diversity matter to an organisation? Research published
+                  by McKinsey shows that diversity has a direct correlation to
+                  financial results.
+               </p>
+               <q>Companies in the top quartile for racial and ethnic diversity are
+                  35 percent more likely to have financial returns above their
+                  respective national industry medians.
+                  </br>
+                  Companies in the top quartile for gender diversity are 15 percent
+                  more likely to have financial returns above their respective
+                  national industry medians. (McKinsey, 2015)
+               </q>
+               <p> Forbes found that diversity in an organisation was critical to
+                   global success, as well as improving innovation within a company.
+                   With financial gains on the line, there is a great incentive for
+                   organisations to be genuinely focused on increasing diversity.
+                   Hiring diverse talent is not that simple though. One of the big
+                   challenges in attracting diverse talent to an organisation is
+                   known as self-screening. Self-screening is where a candidate
+                   reads a job advertisement and decides that they do not meet the
+                   stated criteria, education, or experience requirements and
+                   therefore do not apply for the role – never allowing the employer
+                   to review the candidate. This act of self-screening is much more
+                   prominent in women than it is in men. Research by information
+                   technology company Hewlett Packard, revealed women will not apply
+                   for an advertised job role unless they believe they meet 100% of
+                   the listed criteria, whereas men will apply when they meet around
+                   60%. The inclusion of extraneous or over-inflated job
+                   requirements is costing employers their candidates.
+               </p>
+               <p>To address this, organisations must utilise inclusive hiring
+                  methods and standards. Job descriptions are the initial window of
+                  insight into organisations and an oft lost opportunity to not
+                  only find the right candidate for the role but display the
+                  business’s culture. Describing the requirements of the position
+                  is the point at which companies are unknowingly disconnecting
+                  with potential future employees. What is said and how it is
+                  worded is critical when competing for talent. In 2019 Harvard
+                  Business Review researched why women do not apply for roles.
+                  Their research identifies narrow job descriptions, non-inclusive
+                  language, and culture as critical factors that are deterring
+                  women from applying for jobs. A job description can seem like
+                  such a simple thing to change, but the impact it can have on
+                  hiring responses is significant. As discussed, there has been a
+                  lot of research in this area around inclusive hiring, but to
+                  date, no simple IT solutions for employers to implement to aid
+                  them in doing this better.
+               </p>
+               <p>Effectively improving diversity within talent pipelines is as
+                  simple as tweaking relevant job descriptions. The challenge
+                  employers face is knowing which information needs changing, what
+                  elements are important, and building those elements into a
+                  compelling, engaging, and realistic job narrative. Most managers
+                  find themselves time-poor and the recruitment function in many
+                  organisations is stretched across multiple roles, offshored, or
+                  using a company standard that has existed for many years. The
+                  simple act of including a non-essential degree requirement, or
+                  specifying that the job requires extensive travel, when in fact
+                  it is not an excessive element of the role, are just two examples
+                  of negative descriptors organisations add to their job
+                  requirements daily, without realising the proportion of
+                  candidates they have unintentionally excluded.
+               </p>
+               <p>The talent pool for female candidates in STEM areas such as IT is
+                  already small. A 2019 research report by CUPA HR shows that in
+                  the US, only 26% of students undertaking mathematical and
+                  computing studies at College are female. When you add factors
+                  such as ethnicity, the percentages are tiny. In Australia, the
+                  Australian Bureau of Statistics (2020) has almost identical
+                  figures for the percentages of women engaged in IT studies.
+               </p>
+               <q>Around 445,100 people were studying science, technology,
+                  engineering, or mathematics (STEM) fields in 2020, with 72% of
+                  these students being men. (ABS, 2020)
+               </q>
+               <img src="images/ABS-stats.png" alt="Chart of people currently studying" width="100%"/>
+               <p>When the talent pool is already small, every candidate counts.
+                  </br>
+                  Building a software platform to enable users to rapidly build
+                  highly inclusive job descriptions will immediately increase the
+                  number of candidates applying for roles and give organisations
+                  greater reach and diversity within the applicant pool.
+               </p>
+            </article>
+            <article id="project-description">
+               <h2>Description</h2>
+               <p>InRecruit is a software platform that enables organisations to
+                  easily create, save, and share highly inclusive job descriptions.
+                  InRecruit will be used by organisations who are looking to
+                  improve the diversity of their workforce, and therefore benefit
+                  from the creative and financial benefits of a diverse workforce.
+               </p>
+               <article id="description-target-users">
+                  <h3>Target users</h3>
+                  <p>
+                     In the context of this software a user is considered to be:
+                  </p>
+                  <ul>
+                     <li>HR Managers</li>
+                     <li>Recruitment teams</li>
+                     <li>Hiring managers</li>
+                     <li>Anyone involved in the recruitment process within an
+                         organisation
+                     </li>
+                  </ul>
+                  <p>
+                     No candidates or job applicants will interact with the platform
+                     directly.
+                  </p>
+               </article>
+               <article id="description-features">
+                  <h3>Features</h3>
+                  <p>
+                     The core features of InRecruit are the ability to:
+                  </p>
+                  <ul>
+                     <li>Create, search for and store job descriptions.</li>
+                     <li>Assess job descriptions for bias and receive recommendations
+                         for improvements and changes.
+                     </li>
+                     <li>Support workflows for review, approval, and release.</li>
+                     <li>Provide on-demand training to users around bias and
+                         inclusivity.
+                     </li>
+                     <li>Connect directly to existing HR tools and databases to
+                         support the rapid posting of new job descriptions.
+                     </li>
+                     <li>Conduct analysis around the success of their job
+                         descriptions.
+                     </li>
+                     <li>Benchmark the benefits, salaries, and other key metrics the
+                         organisation is offering against the market.
+                     </li>
+                     <li>Leverage data science and machine learning to provide
+                         customised content to each user.
+                     </li>
+                     <li>Utilise a chatbot for support.</li>
+                  </ul>
+                  <p>
+                     Each section below covers these core features in more detail and
+                     the tools and tech section maps the features to the key
+                     technologies support them in the platform.
+                  </p>
+                  <p>
+                     <b>Create, search and store</b>
+                     <br>
+                     Create, search and store are the main functional components of
+                     InRecruit. The platform enables users to perform the following
+                     actions:
+                  </p>
+                  <ul>
+                     <li>Upload pre-existing job descriptions to use as templates.</li>
+                     <li>Search a pre-loaded library of templates.</li>
+                     <li>Create a custom job description from scratch using an
+                         automated wizard.
+                     </li>
+                     <li>Revert to previous versions of a job description or to
+                         compare two documents.
+                     </li>
+                  </ul>
+                  <p>
+                     <b>Recommendations</b>
+                     <br>
+                     The recommendations engine supports the end-to-end inclusivity
+                     features of InRecruit. Recommendations features include:
+                  </p>
+                  <ul>
+                     <li>Running an assessment on a job description and identifying
+                         words that may be considered exclusive.
+                     </li>
+                     <li>Recommending replacements for phrases or words to improve the
+                         appeal to a broader audience.
+                     </li>
+                     <li>Creating an inclusivity score on the job description to
+                         enable tracking of improvement over time.
+                     </li>
+                  </ul>
+                  <p>
+                     <b>Workflows</b>
+                     <br>
+                     To streamline the process of releasing a new job description into
+                     the market, InRecruit will support workflow. These workflows
+                     include:
+                  </p>
+                  <ul>
+                     <li>Sending new job descriptions to designated reviewers.</li>
+                     <li>Routing finalised job descriptions through to approvers for
+                         release.
+                     </li>
+                     <li>Automatic uploading of job descriptions to supported
+                         recruitment platforms for posting.
+                     </li>
+                  </ul>
+                  <p>
+                     <b>On-demand training</b>
+                     <br>
+                     InRecruit will be the only job description creation platform on
+                     the market that also provides inclusivity training. Within the
+                     tool users will be able to access the following training
+                     on-demand:
+                  </p>
+                  <ul>
+                     <li>Learn what inclusivity means in the context of hiring.</li>
+                     <li>What is bias and how does it affect the creation of job
+                         descriptions.
+                     </li>
+                     <li>Learn which words and phrases have the biggest impact on
+                         potential candidates when reading a job description.
+                     </li>
+                     <li>How to write a compelling and inclusive job description.</li>
+                     <li>View feedback videos from potential candidates concerning job
+                         descriptions and their views on them.
+                     </li>
+                  </ul>
+                  <p>
+                     <b>Analysis and dashboards</b>
+                     <br>
+                     To support effective corporate tracking and analysis, InRecruit
+                     will have several dashboards available, depending on the user
+                     type. These dashboards will display:
+                  </p>
+                  <ul>
+                     <li>Use of the platform – number of users, how often, most
+                         frequent features used.
+                     </li>
+                     <li>Training consumed by users.</li>
+                     <li>The number of job descriptions created.</li>
+                     <li>Reuse of content – library versus wizard versus imported
+                         content.
+                     </li>
+                     <li>Inclusivity scores and change over time, by date, role type,
+                         departments, and location.
+                     </li>
+                     <li>Common bias indicators – are the same limiting words or
+                         phrases being used all the time.
+                     </li>
+                  </ul>
+                  <p>
+                     If connected to the HR/recruitment platforms, InRecruit will also
+                     be able to show analytics for:
+                  </p>
+                  <ul>
+                     <li>The current open jobs and how they are performing such as
+                         overall inclusivity scores, the number of applicants per job,
+                         and how long the roles have been open.
+                     </li>
+                     <li>The total number of applicants versus diverse applicants.</li>
+                     <li>The number of successful diverse applicants.</li>
+                     <li>Time to hire. How long is it taking the organisation to hire
+                         their new candidates.
+                     </li>
+                     <li>ROI – platform costs against increased talent pool, platform
+                         costs against diverse candidates hired, cost per job
+                         description.
+                     </li>
+                  </ul>
+                  <p>
+                     <b>Benchmarking</b>
+                     <br>
+                     InRecruit will enable organisations to benchmark their job
+                     descriptions against the market before they release them.
+                     InRecruit will have the following benchmarking capabilities:
+                  </p>
+                  <ul>
+                     <li>Run a comparative check on a completed job description to see
+                         similar roles currently in the market.
+                     </li>
+                     <li>Run a benchmarking search that will show the estimated salary
+                         bracket and expected benefits for a role.
+                     </li>
+                  </ul>
+                  <p>
+                     <b>Data science and Machine Learning</b>
+                     <br>
+                     To make InRecruit more durable, it will be built using data
+                     science principles, using machine learning to provide users with
+                     relevant market information, up to date language and scenarios
+                     and relevant recommendations for their job descriptions. These
+                     recommendations will draw upon the data gathered from InRecruit’s
+                     extensive database. This will enable InRecruit to understand the
+                     connections between skills, the value of those skills and their
+                     scarcity within a given market. It can then provide
+                     recommendations based on this information that enable managers to
+                     make better informed decisions when publishing their job
+                     advertisements.
+                  </p>
+                  <p>
+                     <b>Chatbot</b>
+                     <br>
+                     Chatbots provide an ideal way of supporting users in their
+                     interactions with applications and software. InRecruit uses this
+                     feature to help coach users through the process of building a job
+                     description, as well as being available to help them find
+                     features, navigate the system, find benchmarking data, whatever
+                     they need assistance with.
+                  </p>
+               </article>
+
+            </article>
+            <article id="project-Proposed-MVP-and-feature-releases">
+               <h2>Proposed MVP and feature releases</h2>
+               <p> Below are the proposed feature releases for InRecruit. For
+                   Assignment 3 it is the team’s intention to build the MVP feature
+                   set.
+               </p>
+               <h3>MVP features:</h3>
+               <ul>
+                  <li>Build, search for and store job descriptions</li>
+                  <li>Workflows</li>
+                  <li>Version history</li>
+                  <li>Bias review and recommendations</li>
+                  <li>Dashboards for analysis</li>
+               </ul>
+
+               <h3>Release two features:</h3>
+               <ul>
+                  <li>Accessibility scoring</li>
+                  <li>Chatbot</li>
+                  <li>Single Sign On</li>
+                  <li>Machine learning for content management</li>
+                  <li>Document comparison</li>
+                  <li>Business tools integration</li>
+                  <li>Recommendation engine</li>
+                  <li>Corporate customisation</li>
+                  <li>On-demand training</li>
+               </ul>
+
+               <h3>Release three features:</h3>
+               <ul>
+                  <li>Multi-language support</li>
+                  <li>Benchmarking</li>
+                  <li>API for direct posting to Seek, LinkedIn and other approved
+                      job sites.
+                  </li>
+               </ul>
+            </article>
+            <article id="project-tools-and-technologies">
+               <h2>Tools and technology</h2>
+               <p>The high-level architecture for InRecruit will have the following
+                  layers.
+               </p>
+               <img src="images/High-level-design.png" alt="Outline of program design and levels" width="50%"/>
+               <p>
+                  The key tools and technologies required to bring InRecruit to
+                  life are:
+               </p>
+               <table style="width:100%">
+                  <tr>
+                     <th>Feature</th>
+                     <th>Description</th>
+                     <th>Tool or technology</th>
+                  </tr>
+                  <tr>
+                     <td>Security</td>
+                     <td>Required for both application security as well as
+                         supporting:
+                        <ul>
+                           <li>Single sign on capabilities</li>
+                           <li>Role Based Access Controls (RBAC)</li>
+                           <li>Multi-Factor Authentication (MFA)</li>
+                        </ul>
+                     </td>
+                     <td>To support the end-to-end security requirements, InRecruit
+                         will need an identity management system such as Azure
+                         Active Directory, Okta, or LastPass.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>User Interface</td>
+                     <td>This is the presentation layer where users access all
+                         the features and functionality of the tool. This is the
+                         web browser that provides the link into the
+                         organisation’s subscription.
+                     </td>
+                     <td>The presentation layer will be a web interface which
+                         will require tools and technologies including:
+                        <ul>
+                           <li>HTML</li>
+                           <li>CSS</li>
+                           <li>Java</li>
+                           <li>GitHub</li>
+                        </ul>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Search</td>
+                     <td>Users need to be able to search easily for content,
+                         previous versions, training materials and data they need
+                         to build their job descriptions.
+                        </br>
+                         A smart search functionality enables autocomplete and
+                         can provide support for multiple languages.
+                     </td>
+                     <td>A search capability that enables language support,
+                         autocomplete and geospatial search such as Azure
+                         Cognitive Search or Amazon CloudSearch.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Data storage</td>
+                     <td>The data storage layer underpins the functionality of
+                         the platform. Both structure and unstructured data
+                         storage will be required to support the tool’s
+                         requirements. The tool needs to be able to call on
+                         libraries of documents, store company preferences and
+                         requirements for their job descriptions, as well as
+                         storing key data for benchmarking.
+                        </br>
+                         Data to be stored includes:
+                        <ul>
+                           <li>Library of documents</li>
+                           <li>Template storage</li>
+                           <li>Company-specific data</li>
+                           <li>Training videos</li>
+                           <li>Bot conversations</li>
+                           <li>Version control</li>
+                           <li>Document comparison</li>
+                           <li>Benchmarking figures</li>
+                           <li>Market- specific content and figures</li>
+                        </ul>
+                     </td>
+                     <td>Data storage and processing is a key component of the
+                         solution. It will require a database such as SQL,
+                         Oracle, PostgreSQL, or MySQL.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Dashboards</td>
+                     <td>Dashboards are a key feature for both regular as well
+                         as Executive users. They provide insights into the
+                         performance of the organisation over time, enable usage
+                         views, improvement in accessibility and inclusion, as
+                         well as identifying areas to work on.
+                     </td>
+                     <td>The solution requires a data visualisation layer and
+                         dashboard such as PowerBI reports, Tableau, Qlik Sense
+                         or Sisense.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Workflows</td>
+                     <td>The workflow function supports routing of job
+                         descriptions for reviews and approvals, as well as
+                         automating release processes. It also supports key
+                         admin functions such as access requests and cost
+                         recharges.
+                     </td>
+                     <td>Workflows for InRecruit manage several operations.
+                         A tool like Power Automate will be required but will
+                         need to be explored more extensively as a key feature
+                         will be the connection to job boards, so something
+                         like IFTTT might be a better fit with that
+                         functionality already built-in.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Bot</td>
+                     <td>The chatbot enables users to seek assistance,
+                         access FAQs and find functions within the tool.
+                     </td>
+                     <td>There are several commercial grade chatbot
+                         builders. The final decision will depend on the
+                         other components of the platform that are
+                         selected. Microsoft offers Bot Service out of the
+                         box that enables you to use their Language
+                         Understanding Intelligent Service (LUIS) for
+                         natural language processing, as well as being able
+                         to quickly build FAQ capabilities for the bot
+                         through the Q&A maker.
+                        </br>
+                         There are similar options available from other
+                         providers such as TARS, which provides an
+                         extensive bot library to build from, as does Flow
+                         XO. The key choice here will be both platform, as
+                         well as cost, as each bot building option has
+                         vastly different pricing models from monthly
+                         charges to cost per interaction.
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Recommendation engine</td>
+                     <td>This is the core of the entire platform. The
+                         recommendation engine drives the following
+                         functions:
+                        <ul>
+                           <li>Assessing job descriptions for bias and
+                               providing recommendations.
+                           </li>
+                           <li>Benchmarking data.</li>
+                           <li>Market-specific customisation data.</li>
+                           <li>Customised content and recommendations for
+                               each user based on previous usage and other
+                               users.
+                           </li>
+                        </ul>
+                     </td>
+                     <td>To build the recommendation engine we will need
+                         the following technology and tools:
+                        <ul>
+                           <li>Unstructured data store.</li>
+                           <li>A registry to contain the models for the
+                               data to be compared against or expected
+                               outcomes and actions.
+                           </li>
+                           <li>Machine learning functionality to provide
+                               guidance and outputs from matched or
+                               unmatched data and conduct analysis on
+                               inputs into the system.
+                           <li>
+                        </ul>
+                         Using the Microsoft components to build this
+                         functionality, it would include:
+                        <ul>
+                           <li>Azure Blob storage</li>
+                           <li>Azure Databricks/MLL Spark</li>
+                           <li>Model Registry</li>
+                           <li>Azure Container Registry</li>
+                           <li>Azure Kubernetes Service</li>
+                           <li>Azure Machine Learning</li>
+                           <li>Microsoft Recommenders (OSS code)</li>
+                           <li>Virtual Machines</li>
+                           <li>GitHub Code repository</li>
+                        </ul>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td>Connection to HR systems and job search sites</td>
+                     <td>This functionality helps HR teams to be able to
+                         analyse the activity within the tool and link it
+                         to the number of candidates and success metrics
+                         so they can track ROI and improvement over time.
+                         The connection to job search sites enables them to
+                         quickly post new job descriptions to approved channels.
+                     </td>
+                     <td>To support connectivity into mainstream HR
+                         systems, we will need to develop some custom APIs,
+                         which are likely to also be required for posting
+                         to job boards and forums.
+                     </td>
+                  </tr>
+               </table>
+            </article>
+            <article id="project-skills-required">
+               <h2>Skills required</h2>
+               <p>The skills required for this project are not particularly rare or
+                  hard to find. Much of the work is standard application
+                  development. The following are the main skills that will be
+                  required:
+               </p>
+               <ul>
+                  <li>Lead developer.</li>
+                  <li>Application developer.</li>
+                  <li>API developer for connections to HR systems and job site
+                      interfaces.
+                  </li>
+                  <li>Security engineer to support single sign on design, RBAC,
+                      MFA and application security.
+                  </li>
+                  <li>Platform specialist to configure the cloud platform that the
+                      software will be hosted on.
+                  </li>
+                  <li>UX designer to create the user interface designs.</li>
+                  <li>Data engineer to support the data connections that will be
+                      needed.
+                  </li>
+                  <li>Data storage specialist to cover all the storage requirements
+                      and configurations.
+                  </li>
+                  <li>Data scientist to build the necessary algorithms to help
+                      train the machine learning components.
+                  </li>
+               </ul>
+               <p>
+                  The only one of these that tends to be more specialist is the
+                  Data Scientist. If InRecruit is going to remain relevant, it
+                  needs to be able to learn from previous interactions so it can
+                  continue to build up to date and highly inclusive job
+                  descriptions.
+               </p>
+            </article>
+            <article id="project-competitor-analysis">
+               <h2>Competitor analysis</h2>
+               <p>
+                  To understand whether InRecruit has market plausibility a
+                  comparison of competitors that are already active within the
+                  market needed to be undertaken. Conducted was research into the
+                  top nine applications and software packages that are currently
+                  available in the market that provide capabilities around building
+                  job descriptions.
+               </p>
+               <p>The table below shows the competitors, as well as the categories
+                  they were assessed against and where they have strengths.
+               </p>
+               <img src="images/Competitor-comparison.png" alt="Diagram showing features of competitor tools"
+                    width="100%"/>
+               <p>
+                  Our assessment showed six key features that either are not
+                  available in existing applications, or only available in a small
+                  number of applications. These features are:
+               </p>
+               <ul>
+                  <li>Bias analysis and accessibility scoring (three applications
+                      have this functionality)
+                  </li>
+                  <li>The use of AI and data science to curate content and make
+                      recommendations (two applications have this functionality)
+                  </li>
+                  <li>Benchmarking (two applications have this functionality)</li>
+                  <li>On demand accessibility training (no applications have this
+                      functionality)
+                  </li>
+                  <li>Market specific job descriptions (no applications have this
+                      functionality)
+                  </li>
+                  <li>Chatbot guidance (no applications have this functionality)</li>
+               </ul>
+
+
+            </article>
+            <article id="project-outcome">
+               <h2>Outcome</h2>
+               <p>
+                  The aim of Team Eagle is to deliver the MVP, identified above, as
+                  the output of Assignment 3.
+               </p>
+               <p>
+                  Using a combination of organisational requirements, in concert
+                  with current research in the field of inclusion, employers will
+                  have at their fingertips a tool that can create custom job
+                  descriptions, optimised to attract diverse talent to the
+                  organisation. InRecruit aims to take the guess work out of
+                  inclusive hiring and assist in creating a consistent hiring
+                  experience for candidates, whether the organisation is 10 people
+                  or 100,000 people.
+               </p>
+               <p>
+                  By solving the challenges inherent in creating an unbiased job
+                  description, InRecruit will help organisations add greater
+                  diversity to their workforce, and therefore increase their
+                  potential for profitability.
+               </p>
+            </article>
+         </section>
 
          <section id="group-reflection"></section>
       </div>
