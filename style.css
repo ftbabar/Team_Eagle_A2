@@ -1,5 +1,4 @@
-.col > img,
-[class^="col-"] > img {
+img {
    width: 100%;
 }
 
@@ -13,16 +12,22 @@ section, article {
 }
 
 #personal-information img {
-   margin: 15px 0px 15px 15px;
+   margin: 15px 0 15px 15px;
+   width: 200px;
 }
 
 @media (max-width: 51px) {
    #personal-information img {
       margin: 15px 15px 15px;
       float: none !important;
-      height: 200px;
+      width: 200px;
    }
 }
+
+#project-tools-and-technologies img {
+   width: 50%;
+}
+
 @media (max-width: 1195px) {
    #project-tools-and-technologies img {
      width: 70%;
@@ -33,6 +38,7 @@ section, article {
       width: 100%;
    }
 }
+
 #project-motivation img{
    width: 70%;
    border: solid #921616;
@@ -44,6 +50,20 @@ section, article {
       width: 100%;
    }
 }
+
+#members-ideal-jobs img{
+   width: 50%;
+}
+
+@media (max-width: 970px) {
+   #members-ideal-jobs img{
+      width: 100%;
+   }
+}
+
+#industry-data figure{
+   margin: 25px;
+}
    
 h1 {
    margin-top: 1em;
@@ -54,4 +74,18 @@ h2 {
    padding: 5px 0px;
    border-bottom: solid 1px lightgray;
    margin-bottom: 1em;
+}
+
+table{
+   border: 1px solid #ddd;
+   padding: 8px;
+}
+th {
+   background-color:#921616 ;
+   color: white;
+  
+}
+th, td{
+   border: 1px solid #ddd;
+   padding: 8px;
 }
