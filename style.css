@@ -7,7 +7,8 @@ article + article {
    margin-top: 1rem;
 }
 
-section, article {
+section,
+article {
    scroll-margin-top: 56px;
 }
 
@@ -30,7 +31,7 @@ section, article {
 
 @media (max-width: 1195px) {
    #project-tools-and-technologies img {
-     width: 70%;
+      width: 70%;
    }
 }
 @media (max-width: 760px) {
@@ -39,7 +40,7 @@ section, article {
    }
 }
 
-#project-motivation img{
+#project-motivation img {
    width: 70%;
    border: solid #921616;
    margin: 20px 0px;
@@ -51,20 +52,20 @@ section, article {
    }
 }
 
-#members-ideal-jobs img{
+#members-ideal-jobs img {
    width: 50%;
 }
 
 @media (max-width: 970px) {
-   #members-ideal-jobs img{
+   #members-ideal-jobs img {
       width: 100%;
    }
 }
 
-#industry-data figure{
+#industry-data figure {
    margin: 25px;
 }
-   
+
 h1 {
    margin-top: 1em;
    color: #921616;
@@ -76,16 +77,40 @@ h2 {
    margin-bottom: 1em;
 }
 
-table{
+table {
    border: 1px solid #ddd;
    padding: 8px;
 }
 th {
-   background-color:#921616 ;
+   background-color: #921616;
    color: white;
-  
 }
-th, td{
+th,
+td {
    border: 1px solid #ddd;
    padding: 8px;
+}
+.a {
+   color: #921616;
+}
+
+#our-individual-websites .btn a {
+   color: white;
+   background: #921616;
+   padding: 10px;
+   border-radius: 4px;
+   text-decoration: none;
+   display: inline-block;
+   margin-bottom: 20px;
+}
+
+#our-individual-websites .btn a:hover {
+   opacity: 0.6;
+}
+#meetings .btn a {
+   color: #921616;
+}
+
+#meetings .btn a:hover {
+   opacity: 0.6;
 }
