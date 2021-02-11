@@ -83,6 +83,7 @@ table {
 }
 th {
    background-color: #921616;
+
    color: white;
 }
 th,
@@ -113,4 +114,10 @@ td {
 
 #meetings .btn a:hover {
    opacity: 0.6;
+}
+#career-plans figure {
+   margin: 20px;
+}
+table img {
+   width: 40px;
 }
