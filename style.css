@@ -122,3 +122,15 @@ td {
 table img {
    width: 40px;
 }
+#prototype a {
+   color: white;
+   background: #921616;
+   padding: 10px;
+   border-radius: 4px;
+   text-decoration: none;
+   display: inline-block;
+   margin-bottom: 20px;
+}
+#prototype a:hover {
+   opacity: 0.6;
+}
