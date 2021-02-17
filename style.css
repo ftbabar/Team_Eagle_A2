@@ -25,45 +25,45 @@ article {
    }
 }
 
-#project-tools-and-technologies img {
+#tools-and-technologies img {
    width: 50%;
 }
 
 @media (max-width: 1195px) {
-   #project-tools-and-technologies img {
+   #tools-and-technologies img {
       width: 70%;
    }
 }
 @media (max-width: 760px) {
-   #project-tools-and-technologies img {
+   #tools-and-technologies img {
       width: 100%;
    }
 }
 
-#project-motivation img {
+#motivation img {
    width: 70%;
    border: solid #921616;
    margin: 20px 0px;
 }
 
 @media (max-width: 1415px) {
-   #project-motivation img {
+   #motivation img {
       width: 100%;
    }
 }
-
-#members-ideal-jobs img {
+#testing img {
    width: 50%;
+   margin-bottom: 20px;
 }
-
-@media (max-width: 970px) {
-   #members-ideal-jobs img {
-      width: 100%;
+@media (max-width: 1195px) {
+   #testing img {
+      width: 70%;
    }
 }
-
-#industry-data figure {
-   margin: 25px;
+@media (max-width: 760px) {
+   #testing img {
+      width: 100%;
+   }
 }
 
 h1 {
