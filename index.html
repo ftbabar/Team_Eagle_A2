@@ -1814,8 +1814,84 @@
                   <p>
                      The prototype was built using Adobe XD to create an
                      application-like interface to show potential investors what
-                     the experience would be like.
+                     the experience would be like. The full prototype can be
+                     viewed and tested on the link provided in the Prototype
+                     section below.
                   </p>
+                  <p>
+                     Key elements created in the prototype cover all MVP
+                     features that had been identified as well as key features
+                     from release two and three. The purpose of doing this was
+                     to help investors and potential users really understand
+                     what the tool could do for them.
+                  </p>
+                  <p>
+                     Below are some of the screens showing the MVP features of
+                     the prototype. The initial log in screen offers the options
+                     of signing up, a demo, or using your corporate single sign
+                     on to access the platform.
+                  </p>
+                  <img
+                     src="images/Landing.png"
+                     alt="Image showing the landing page for InRecruit"
+                     width="100%"
+                  />
+                  <p>
+                     The main screen can be customised to have organisational
+                     content and logos. This is where users can see their own
+                     ads that in progress, create a new campaign or see the past
+                     history of campaigns and job descriptions.
+                  </p>
+                     <img
+                        src="images/Dash.png"
+                        alt="Landing page for InRecruit"
+                        width="100%"
+                     />
+                  <p>
+                     The main screen also offers a quick view of analytics
+                     around jobs, bias scores and other key data at a glance.
+                     The data available is dependent on the user with business
+                     owners have access to detailed data such as the cost per
+                     recruit, success scores, time to recruit and diversity
+                     counters.
+                  </p>
+                  <img
+                     src="images/Dash pt2.png"
+                     alt="Analytics component of the landing page for InRecruit"
+                     width="100%"
+                  />
+                  <p>
+                     The ad creation interface allows users to create from a
+                     template, or to enter some basic information to get started
+                     on a new job description.
+                  </p>
+                  <img
+                     src="images/Let's make an ad 1.png"
+                     alt="Diagram showing features of competitor tools"
+                     width="100%"
+                  />
+                  <p>
+                     The interface identifies areas for improvement and makes
+                     recommendations for potential changes that the user can
+                     choose to accept, or ignore. Users can publish directly
+                     from this screen, or save and initiate internal approval
+                     workflows.
+                  </p>
+                  <img
+                     src="images/Let's make an ad 2.png"
+                     alt="Diagram showing features of competitor tools"
+                     width="100%"
+                  />
+                  <p>
+                     Once the job description is complete the tool provides a
+                     score that shows whether the job description was inclusive
+                     and what areas were flagged or could be improved.
+                  </p>
+                  <img
+                     src="images/Ad score 1.png"
+                     alt="Diagram showing the bias score for an ad"
+                     width="100%"
+                  />
                </article>
 
                <article id="roles">
@@ -2211,6 +2287,18 @@
                      alt="Outline of program design and levels"
                   />
                   <p>
+                     Taking this architecture down to a more detailed level, it
+                     could look something like the following diagram. In this
+                     deeper level of detail, the main functions are covered in
+                     more detail showing the likely components required to make
+                     the platform operate, as well as some of the potential
+                     products or tools needed to build it.
+                  </p>
+                  <img
+                     src="images/Detailed architecture.png"
+                     alt="Detailed diagram for InRecruit architecture"
+                  />
+                  <p>
                      The key tools and technologies required to bring InRecruit
                      to life are:
                   </p>
@@ -2479,6 +2567,122 @@
                         <td>
                            No team members have experience of designing or
                            implementing APIs.
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Cloud platform</td>
+                        <td>
+                           Although not aligned to user stories or a feature of
+                           the application, the cloud platform itself is going
+                           to be critical.
+                        </br>
+                           The platform includes the architecture required to
+                           support all the features of the program. It will be
+                           where the application is hosted, enabling access to
+                           all users.
+                        </td>
+                        <td>
+                           The platform design and choice will be dependent on
+                           the final down selection of a cloud provider. At a
+                           base level though servers will be required to support
+                           the databases, virtual machines and other
+                           infrastructure that forms part of the platform.
+                        </br>
+                           The type and size of servers will depend on the
+                           initial configurations of the application, such as
+                           how many templates will be stored and what kind of
+                           service level agreements or uptime will be needed to
+                           provide users with the best possible experience.
+                        </br>
+                           To support the deployment of the platform and the
+                           rest of the features, a cloud based development tool
+                           such as Azure DevOps, Terraform or GitHub will be
+                           needed to support capturing backlog activities,
+                           prioritising features and enabling effective
+                           development activities.
+                        </td>
+                        <td>
+                           No team members have experience of  of deploying
+                           servers or other cloud infrastructure.
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Quality assurance</td>
+                        <td>
+                           Having built the platform, making sure it is
+                           operating as expected will be critical. In particular
+                           the Machine Learning components will require
+                           monitoring and tweaking to help optimise outputs and
+                           learn from user feedback.
+                        </br>
+                           Building a feedback loop into our design will help
+                           make sure the platform remains relevant and issues
+                           are identified and addressed early.
+                        </td>
+                        <td>
+                           As above, a cloud based development tool will be
+                           needed to add items to the backlog.
+                        </td>
+                        <td>
+                           None of the team have experience in tuning machine
+                           learning models, but all team members have experience
+                           of cloud based agile tools having used GitHub as part
+                           of assignment work for this subject.
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Job description templates</td>
+                        <td>
+                           Although the data storage is covered above, one of
+                           the key components of the solution is a library of
+                           templates. Creating this library will be a major task
+                           in enabling the platform.
+                        </td>
+                        <td>
+                           The most obvious technologies to enable this feature
+                           are Word or another word processing software, and a
+                           storage library (covered above in more detail).
+                        </td>
+                        <td>
+                           All team members have experience working with Word
+                           and storage libraries such as SharePoint.
+                        </td>
+                     </tr>
+                     <tr>
+                        <td>Bias decoder</td>
+                        <td>
+                           The core feature of the platform is its ability to
+                           identify potential bias within job descriptions and
+                           provide recommendations around how to make suitable
+                           changes.
+                        </br>
+                           The platform will also provide a score all up for
+                           job descriptions so that organisations can track how
+                           inclusive they are being over time.
+                        </td>
+                        <td>
+                           This functionality will be built and configured in a
+                           number of ways. The simplest way of building the
+                           initial capability is a list of words that the
+                           platform runs a simple comparison against. This list
+                           is easy enough to build based on research that is
+                           publicly available around male and female coded
+                           words.
+                        </br>
+                           Creating a score will be part of the AI capabilities
+                           built into the platform. There will be a number of
+                           variables that will be measured and the system will
+                           provide a score based on these parameters.
+                        </br>
+                           As the recommendations will be based around Machine
+                           Learning, data sets will be needed to help initially
+                           train the algorithm, followed by tuning and
+                           monitoring to make sure it continues to learn and
+                           deliver the expected outcomes.
+                        </td>
+                        <td>
+                           None of the team have experience in building machine
+                           learning models or tuning them.
                         </td>
                      </tr>
                   </table>
@@ -3210,6 +3414,7 @@
 
          <section id="skills-and-jobs">
             <h1>Skills and Jobs</h1>
+            <h2>Roles</h2>
             <p>
                To support the design and build of the final program, there are
                four key roles that will be needed:
@@ -3221,12 +3426,48 @@
                <li>Application developer</li>
             </ul>
             <p>
+               Based on the high level designs and analysis of the tools and
+               technologies required for InRecruit, these are the skills that
+               will be most critical for success.
+            </p>
+            <h2>Job descriptions</h2>
+            <p>
                Job descriptions for these four roles are included below. As the
                project relates to building inclusive job descriptions, we have
                used inclusive job design techniques and parameters for each of
-               these roles.
+               these roles. This means that the job descriptions below
+               deliberately don’t contain long lists of skills requirements
+               or experience as these are considered to exclude diverse
+               candidates. They deliberately don’t talk about common
+               professional skills such as the ability to communicate
+               effectively, work under pressure or other similar job
+               advertisement phrases. These kinds of soft skill requirements
+               are better assessed during an interview and including them in
+               job descriptions can turn candidates off. The kind of language
+               used is also categorised as “female”. This is deliberate as
+               this is more appealing to women, but has been shown not to
+               exclude men. According to research three of the most common
+               pieces of feedback on job descriptions are that candidates
+               want to know that there will be a challenge, that they can
+               learn on the job and exactly why an organisation needs them
+               (Egan, M. 2011). These have been incorporated into the four
+               job descriptions below.
             </p>
-
+            <p>
+               For each role we have researched existing similar roles and
+               have drawn upon the key technical skills needed in order to
+               be successful, particularly when part of a small team. This
+               forms the core of each of the job descriptions – a focus on
+               only truly critical skills and nothing else.
+            </p>
+            <p>
+               Although these job descriptions may appear short and light on
+               content, writing a brief job description that contains all the
+               critical skills required for the role and designed to be as
+               inclusive as possible is time consuming, sometimes confusing and
+               hard work. It is for this reason that the concept of InRecruit
+               exists.
+            </p>
             <article id="position-1">
                <h2>Security Engineer</h2>
                <p>
@@ -3723,7 +3964,7 @@
          <!-- References -->
          <section id="references">
             <h1>Reference List</h1>
-            
+
             <p>
                Ashcraft, C, McLain, B and Eger, E 2016,
                <i>Women in Tech: The Facts. 1st ed.</i>National Centre for Women
